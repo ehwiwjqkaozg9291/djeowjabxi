@@ -31,3 +31,128 @@ proxies:
       headers:
         Host: fr1.xv2ray.net
     udp: true
+  - name: NL
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 8aebde13-4e15-48e0-a1dc-1c0e6f33b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nl-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /racevpn
+      headers:
+        Host: nl-full.privateip.net
+    udp: true
+  - name: NL2
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 02ed87cd-9653-4017-bac0-6a80636e5610
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nl2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /racevpn
+      headers:
+        Host: nl2-full.privateip.net
+    udp: true
+  - name: SG
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 7c1475a5-33ff-40dc-8446-bd8ce7523c01
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /racevpn
+      headers:
+        Host: sg-full.privateip.net
+    udp: true
+  - name: NL1
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: db1f805d-0879-4a5b-9cf9-47eabfbbccb8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-adv-nl01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-adv-nl01.globalssh.xyz
+    udp: true
+  - name: OVH2
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 123zxc
+    skip-cert-verify: true
+    sni: trojan-ovh-sg02.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: trojan-ovh-sg02.globalssh.xyz
+    udp: true
+  - name: FR2
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 63c1b5f0-47ca-4cd1-bdff-e2b362528595
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fr2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /racevpn
+      headers:
+        Host: fr2-full.privateip.net
+    udp: true
+  - name: SG2
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: ca1e5385-5a43-4b1b-9346-29bda5f98a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /racevpn
+      headers:
+        Host: sg2-full.privateip.net
+    udp: true
+  - name: FR
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: f7cf5b9a-de99-497e-b3b5-e30f83830520
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fr-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /racevpn
+      headers:
+        Host: fr-full.privateip.net
+    udp: true
