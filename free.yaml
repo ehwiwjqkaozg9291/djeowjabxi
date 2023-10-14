@@ -15,7 +15,7 @@ proxies:
         Host: jp2.vlessx.xyz
     udp: true
   - name: JP1
-    server: jp1.vlessx.xyz
+    server: beacon.liveon.id
     port: 80
     type: vless
     uuid: e743f05d-397e-4719-8f41-8d3c7b793edd
@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: jp1.vlessx.xyz
     udp: true
-  - name: SGG
+  - name: SGL
     server: beacon.liveon.id
     port: 443
     type: trojan
