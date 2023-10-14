@@ -38,7 +38,7 @@ proxies:
     sni: sg2trws.createv2ray.com
     network: ws
     ws-opts:
-      path: ?sni=trojan
+      path: /trojan
       headers:
         Host: sg2trws.createv2ray.com
     udp: true
