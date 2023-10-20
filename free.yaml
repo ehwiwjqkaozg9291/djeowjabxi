@@ -1,4 +1,17 @@
 proxies:
+  - name: USA TJ
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 02fee340-6f10-11ee-ad83-1577c1651679
+    skip-cert-verify: true
+    sni: 3.lowh.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: 3.lowh.net
+    udp: true
   - name: JP2
     server: beacon.liveon.id
     port: 80
