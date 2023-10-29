@@ -12,11 +12,43 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: sg2-trojan.bonds.id
+  - name: SG2 HOWDY
     server: sg2-trojan.bonds.id
     port: 443
     type: trojan
     password: d2354ae0-764b-11ee-8a33-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true 
+  - name: SG MELBI
+    server: sg-4.test3.net
+    port: 443
+    type: trojan
+    password: fd7d76b0-764c-11ee-afcb-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG1 HOWDY
+    server: sg1-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 4a424b20-764d-11ee-9d79-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG MELBI
+    server: sg-4.test3.net
+    port: 443
+    type: trojan
+    password: fd7d76b0-764c-11ee-afcb-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG AMP
+    server: sg-2.test3.net
+    port: 443
+    type: trojan
+    password: 44e80b10-764d-11ee-878e-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
