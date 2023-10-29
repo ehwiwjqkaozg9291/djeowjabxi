@@ -12,46 +12,11 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: JP2
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: dc79cb1c-4b66-4be0-be1f-e2476658f9d4
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jp2.vlessx.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: jp2.vlessx.xyz
-    udp: true
-  - name: JP1
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: e743f05d-397e-4719-8f41-8d3c7b793edd
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jp1.vlessx.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: jp1.vlessx.xyz
-    udp: true
-  - name: SGL
-    server: beacon.liveon.id
+  - name: sg2-trojan.bonds.id
+    server: sg2-trojan.bonds.id
     port: 443
     type: trojan
-    password: 2fd330c2-4ae1-4c11-bec0-83844b70b0ed
+    password: d2354ae0-764b-11ee-8a33-1239d0255272
     skip-cert-verify: true
-    sni: sg2trws.createv2ray.com
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg2trws.createv2ray.com
+    sni: shopee.co.id
     udp: true
