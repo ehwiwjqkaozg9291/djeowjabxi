@@ -12,6 +12,22 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
+  - name: FR RVPN
+    server: fr-full.privateip.net
+    port: 443
+    type: trojan
+    password: 6d6508d3-0432-4b54-959f-86e4a8cc4e5d
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true 
+  - name: NL RVPN
+    server: nl-full.privateip.net
+    port: 443
+    type: trojan
+    password: 4b88db35-7cb5-4858-8c91-6fea64c7174d
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true 
   - name: SG2 HOWDY
     server: sg2-trojan.bonds.id
     port: 443
