@@ -12,91 +12,37 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: FR RVPN
-    server: fr-full.privateip.net
+  - name: SG3 OPTNL
+    server: sgt-3.optnl.com
     port: 443
     type: trojan
-    password: 6d6508d3-0432-4b54-959f-86e4a8cc4e5d
+    password: opentunnel.net-hsiswi
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true 
-  - name: NL RVPN
-    server: nl-full.privateip.net
+  - name: SG1 OPTNL
+    server: sgt-1.optnl.com
     port: 443
     type: trojan
-    password: 4b88db35-7cb5-4858-8c91-6fea64c7174d
+    password: opentunnel.net-beiek
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true 
-  - name: SG2 HOWDY
-    server: sg2-trojan.bonds.id
+  - name: SG1 GRN
+    server: sgt1.greenssh.xyz
     port: 443
     type: trojan
-    password: d2354ae0-764b-11ee-8a33-1239d0255272
+    password: 7f7178d7-77b2-4c21-87eb-b987ec197792
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true 
-  - name: SG MELBI
-    server: sg-4.test3.net
+  - name: SG2 GREN
+    server: sgt2.greenssh.xyz
     port: 443
     type: trojan
-    password: fd7d76b0-764c-11ee-afcb-1239d0255272
+    password: 20035a69-4991-4e54-940b-2adb32547967
     skip-cert-verify: true
     sni: shopee.co.id
-    udp: true
-  - name: SG1 HOWDY
-    server: sg1-trojan.bonds.id
-    port: 443
-    type: trojan
-    password: 4a424b20-764d-11ee-9d79-1239d0255272
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: SG MELBI
-    server: sg-4.test3.net
-    port: 443
-    type: trojan
-    password: fd7d76b0-764c-11ee-afcb-1239d0255272
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: SG AMP
-    server: sg-2.test3.net
-    port: 443
-    type: trojan
-    password: 44e80b10-764d-11ee-878e-1239d0255272
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: JP3
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: 65e956ab-b609-47d4-a072-987ced977290
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jp3.vlessx.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: jp3.vlessx.xyz
-    udp: true
-  - name: JP4
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: 7618204e-d7cf-49b4-9e9a-374d0bcf7bf1
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jp4.vlessx.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: jp4.vlessx.xyz
     udp: true
   - name: JP8
     server: beacon.liveon.id
