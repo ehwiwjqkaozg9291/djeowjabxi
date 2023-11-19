@@ -30,7 +30,7 @@ proxies:
     udp: true 
   - name: SG1 GRN
     server: sgt1.greenssh.xyz
-    port: 443
+    port: 80
     type: trojan
     password: 7f7178d7-77b2-4c21-87eb-b987ec197792
     skip-cert-verify: true
@@ -38,7 +38,7 @@ proxies:
     udp: true 
   - name: SG2 GREN
     server: sgt2.greenssh.xyz
-    port: 443
+    port: 80
     type: trojan
     password: 20035a69-4991-4e54-940b-2adb32547967
     skip-cert-verify: true
