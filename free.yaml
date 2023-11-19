@@ -44,18 +44,18 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: JP8
+  - name: JP4
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: 895c80b7-1a1f-4f10-8a1a-40598d70c0b1
+    uuid: 54bf8118-6614-460a-97dd-b0549dbee2e9
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: jp8.vlessx.xyz
+    servername: jp4.vlessx.us
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: jp8.vlessx.xyz
+        Host: jp4.vlessx.us
     udp: true
