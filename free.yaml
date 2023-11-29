@@ -119,17 +119,17 @@ proxies:
         Host: cx62.ntr.biz.id
     udp: true
   - name: Korea
-    server: cx37.ntr.biz.id
+    server: beacon.liveon.id
     port: 443
     type: vless
     uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: cx37.ntr.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: shopee.co.id
+        Host: cx37.ntr.biz.id
     udp: true
