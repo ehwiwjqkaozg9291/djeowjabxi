@@ -11,14 +11,6 @@ proxies:
       path: /howdy
       headers:
         Host: 3.lowh.net
-    udp: true
-  - name: SG3 OPTNL
-    server: sgt-3.optnl.com
-    port: 443
-    type: trojan
-    password: opentunnel.net-hsiswi
-    skip-cert-verify: true
-    sni: shopee.co.id
     udp: true 
   - name: SG1 OPTNL
     server: sgt-1.optnl.com
@@ -35,8 +27,23 @@ proxies:
     password: 7f7178d7-77b2-4c21-87eb-b987ec197792
     skip-cert-verify: true
     sni: shopee.co.id
-    udp: true 
-  - name: SG2
+    udp: true
+  - name: SG1 VM
+    server: sg1ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: bef3afa0-4986-4ac0-85a2-a74b86e1db31
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: shopee.co.id
+  - name: SG2 VM
     server: sg2ray.serverip.my.id
     port: 443
     type: vmess
@@ -51,7 +58,7 @@ proxies:
       path: /serverssh.net
       headers:
         Host: shopee.co.id
-  - name: SG1
+  - name: SG1 VL
     server: sg1ray.serverip.my.id
     port: 443
     type: vless
@@ -65,4 +72,64 @@ proxies:
       path: /serverssh
       headers:
         Host: shopee.co.id
+    udp: true
+  - name: SG2 VL
+    server: sg2ray.serverip.my.id
+    port: 443
+    type: vless
+    uuid: f15ab8a9-6719-4bf4-9596-c47225f3fb7c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: shopee.co.id
+    udp: true
+  - name: Zenlayer
+    server: cx3.ntr.biz.id
+    port: 443
+    type: vless
+    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: shopee.co.id
+    udp: true
+  - name: Alibaba
+    server: cx62.ntr.biz.id
+    port: 443
+    type: vless
+    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.is
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: shopee.co.is
+    udp: true
+  - name: Korea
+    server: cx37.ntr.biz.id
+    port: 443
+    type: vless
+    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.is
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: shopee.co.is
     udp: true
