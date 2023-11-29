@@ -128,7 +128,6 @@ proxies:
     skip-cert-verify: true
     servername: cx37.ntr.biz.id
     network: ws
-    mux: false
     ws-opts:
       path: /?ed=2048
       headers:
