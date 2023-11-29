@@ -36,26 +36,33 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true 
-  - name: SG2 GREN
-    server: sgt2.greenssh.xyz
-    port: 80
-    type: trojan
-    password: 20035a69-4991-4e54-940b-2adb32547967
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: JP4
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: 54bf8118-6614-460a-97dd-b0549dbee2e9
+  - name: SG2
+    server: sg2ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: ad43e845-4a80-47c9-be54-ec8168468ee3
+    alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: jp4.vlessx.us
+    servername: shopee.co.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /serverssh.net
       headers:
-        Host: jp4.vlessx.us
+        Host: shopee.co.id
+  - name: SG1
+    server: sg1ray.serverip.my.id
+    port: 443
+    type: vless
+    uuid: 0c4b8d48-9ef0-40b7-b2f6-632f14208aca
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: shopee.co.id
     udp: true
