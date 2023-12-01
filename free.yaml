@@ -80,49 +80,78 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: Zenlayer
+  - name: Incapsula
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cx3.ntr.biz.id
+    servername: net1.ntr.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: cx3.ntr.biz.id
+        Host: net1.ntr.biz.id
     udp: true
-  - name: Alibaba
+  - name: ZTN
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cx62.ntr.biz.id
+    servername: net2.ntr.biz.id
     network: ws
-    mux: false
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: cx62.ntr.biz.id
+        Host: net2.ntr.biz.id
     udp: true
-  - name: Korea
+  - name: Tencent Cloud
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cx37.ntr.biz.id
+    servername: net3.ntr.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: cx37.ntr.biz.id
+        Host: net3.ntr.biz.id
+    udp: true
+  - name: Linode
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: net4.ntr.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net4.ntr.biz.id
+    udp: true
+  - name: HostHatch
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: net5.ntr.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net5.ntr.biz.id
     udp: true
