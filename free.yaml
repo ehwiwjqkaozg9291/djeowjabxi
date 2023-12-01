@@ -20,14 +20,6 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true 
-  - name: SG1 GRN
-    server: sgt1.greenssh.xyz
-    port: 80
-    type: trojan
-    password: 7f7178d7-77b2-4c21-87eb-b987ec197792
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
   - name: SG1 VM
     server: sg1ray.serverip.my.id
     port: 443
@@ -113,6 +105,7 @@ proxies:
     skip-cert-verify: true
     servername: cx62.ntr.biz.id
     network: ws
+    mux: false
     ws-opts:
       path: /?ed=2048
       headers:
