@@ -155,33 +155,48 @@ proxies:
       headers:
         Host: net5.ntr.biz.id
     udp: true
-  - name: CA
-    server: vless-ovh-ca01.globalssh.xyz
+  - name: Global Cloud
+    server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 6b47a421-9606-4c4e-a146-a4be2211843a
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
-    udp: true  
-  - name: US
-    server: vless-ctb-us01.globalssh.xyz
+    servername: net6.ntr.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net6.ntr.biz.id
+    udp: true
+  - name: WebHorizon
+    server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 49ccc34b-204b-4618-96f6-41a1c56d8a74
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
-    udp: true 
-  - name: NL
-    server: vless-adv-nl01.globalssh.xyz
+    servername: net7.ntr.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net7.ntr.biz.id
+    udp: true
+  - name: CenterHop
+    server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 77cb217c-3cbe-484f-8c4f-6d11387432c2
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: net8.ntr.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net8.ntr.biz.id
     udp: true
