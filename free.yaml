@@ -163,7 +163,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
+    servername: shopee.co.id
     udp: true  
   - name: US
     server: vless-ctb-us01.globalssh.xyz
@@ -173,7 +173,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
+    servername: shopee.co.id
     udp: true 
   - name: NL
     server: vless-adv-nl01.globalssh.xyz
@@ -183,5 +183,5 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
+    servername: shopee.co.id
     udp: true
