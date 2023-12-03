@@ -32,26 +32,6 @@ proxies:
     skip-cert-verify: true
     servername: shopee.co.id
     udp: true
-  - name: USA TCP
-    server: us2.oceis.net
-    port: 443
-    type: vless
-    uuid: 055c74e0-91ce-11ee-b837-205c6d5f5d78
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    udp: true
-  - name: Usa TLS
-    server: us2.oceis.net
-    port: 443
-    type: vless
-    uuid: 412dad90-91cd-11ee-b234-205c6d5f5d78
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    udp: true
   - name: Incapsula
     server: beacon.liveon.id
     port: 443
