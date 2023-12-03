@@ -1,17 +1,4 @@
 proxies:
-  - name: USA TJ
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 59286810-8ff7-11ee-9968-1577c1651679
-    skip-cert-verify: true
-    sni: 3.lowh.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: 3.lowh.net
-    udp: true 
   - name: SG1 OPTNL
     server: sgt-1.optnl.com
     port: 443
