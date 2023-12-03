@@ -12,64 +12,22 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true 
-  - name: SG1 OPTNL
-    server: sgt-1.optnl.com
-    port: 443
-    type: trojan
-    password: opentunnel.net-beiek
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true 
-  - name: SG1 VM
-    server: sg1ray.serverip.my.id
-    port: 443
-    type: vmess
-    uuid: bef3afa0-4986-4ac0-85a2-a74b86e1db31
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: shopee.co.id
-  - name: SG2 VM
-    server: sg2ray.serverip.my.id
-    port: 443
-    type: vmess
-    uuid: ad43e845-4a80-47c9-be54-ec8168468ee3
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: shopee.co.id
-  - name: SG1 VL
-    server: sg1ray.serverip.my.id
-    port: 443
-    type: vless
-    uuid: 0c4b8d48-9ef0-40b7-b2f6-632f14208aca
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /serverssh
-      headers:
-        Host: shopee.co.id
-    udp: true
+
   - name: ASIA XTLS
     server: asia.oceis.net
     port: 443
     type: vless
     uuid: 8e961a00-91cc-11ee-b930-205c6d5f5d78
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: USA TCP
+    server: us2.oceis.net
+    port: 443
+    type: vless
+    uuid: 055c74e0-91ce-11ee-b837-205c6d5f5d78
     cipher: auto
     tls: true
     skip-cert-verify: true
