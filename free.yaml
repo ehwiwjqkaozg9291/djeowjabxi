@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true 
-  - name: USA Vless-TCP XTLS(2023-12-10)
+  - name: USA XTLS
     server: us2.oceis.net
     port: 443
     type: vless
