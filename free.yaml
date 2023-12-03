@@ -65,11 +65,21 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: ASIA Vless-TCP XTLS(2023-12-10)
+  - name: ASIA XTLS
     server: asia.oceis.net
     port: 443
     type: vless
     uuid: 8e961a00-91cc-11ee-b930-205c6d5f5d78
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: Usa TLS
+    server: us2.oceis.net
+    port: 443
+    type: vless
+    uuid: 412dad90-91cd-11ee-b234-205c6d5f5d78
     cipher: auto
     tls: true
     skip-cert-verify: true
