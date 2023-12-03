@@ -65,20 +65,15 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: SG2 VL
-    server: sg2ray.serverip.my.id
+  - name: ASIA Vless-TCP XTLS(2023-12-10)
+    server: asia.oceis.net
     port: 443
     type: vless
-    uuid: f15ab8a9-6719-4bf4-9596-c47225f3fb7c
+    uuid: 8e961a00-91cc-11ee-b930-205c6d5f5d78
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /serverssh
-      headers:
-        Host: shopee.co.id
     udp: true
   - name: Incapsula
     server: beacon.liveon.id
