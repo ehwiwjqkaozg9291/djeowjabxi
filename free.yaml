@@ -20,18 +20,21 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: USA TZ
-    server: us2.trojanvh.xyz
+  - name: UK1
+    server: ukt-1.optnl.com
     port: 443
     type: trojan
-    password: b335bfe3-2a77-4e6a-892c-302a4f4fd507
+    password: opentunnel.net-fczafeaq
     skip-cert-verify: true
     sni: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: shopee.co.id
+    udp: true
+  - name: UK2
+    server: ukt-2.optnl.com
+    port: 443
+    type: trojan
+    password: opentunnel.net-dauogxchz
+    skip-cert-verify: true
+    sni: shopee.co.id
     udp: true
   - name: Incapsula
     server: beacon.liveon.id
