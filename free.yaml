@@ -20,13 +20,18 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: USAZ
+  - name: USA TJ
     server: us2.trojanvh.xyz
     port: 443
     type: trojan
-    password: 59c98116-aabf-4cbc-b4d6-a82a27dc65dc
+    password: b335bfe3-2a77-4e6a-892c-302a4f4fd507
     skip-cert-verify: true
     sni: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: shopee.co.id
     udp: true
   - name: Incapsula
     server: beacon.liveon.id
