@@ -28,7 +28,6 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-    trojan://8c749204-23dc-4506-ac70-69ef6bd151a8@fr-freevmess.privateip.net:443#trojan-tcp
   - name: Incapsula
     server: beacon.liveon.id
     port: 443
