@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: USA Trojan-TCP(2023-12-11)
+  - name: USA Trojan
     server: us2.oceis.net
     port: 443
     type: trojan
@@ -20,26 +20,15 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: USA XTLS
-    server: us2.oceis.net
+  - name: USAZ
+    server: fr-freevmess.privateip.net
     port: 443
-    type: vless
-    uuid: 8bdbe310-91ce-11ee-b235-205c6d5f5d78
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 8c749204-23dc-4506-ac70-69ef6bd151a8
     skip-cert-verify: true
-    servername: shopee.co.id
+    sni: shopee.co.id
     udp: true
-  - name: ASIA XTLS
-    server: asia.oceis.net
-    port: 443
-    type: vless
-    uuid: 8e961a00-91cc-11ee-b930-205c6d5f5d78
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    udp: true
+    trojan://8c749204-23dc-4506-ac70-69ef6bd151a8@fr-freevmess.privateip.net:443#trojan-tcp
   - name: Incapsula
     server: beacon.liveon.id
     port: 443
