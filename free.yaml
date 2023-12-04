@@ -21,10 +21,10 @@ proxies:
     sni: shopee.co.id
     udp: true
   - name: USAZ
-    server: fr-freevmess.privateip.net
+    server: us2.trojanvh.xyz
     port: 443
     type: trojan
-    password: 8c749204-23dc-4506-ac70-69ef6bd151a8
+    password: 59c98116-aabf-4cbc-b4d6-a82a27dc65dc
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
