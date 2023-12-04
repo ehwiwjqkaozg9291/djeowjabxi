@@ -11,7 +11,15 @@ proxies:
       path: /howdy
       headers:
         Host: 3.lowh.net
-    udp: true 
+    udp: true
+  - name: USA Trojan-TCP(2023-12-11)
+    server: us2.oceis.net
+    port: 443
+    type: trojan
+    password: 7a28dd80-929e-11ee-b336-205c6d5f5d78
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: USA XTLS
     server: us2.oceis.net
     port: 443
