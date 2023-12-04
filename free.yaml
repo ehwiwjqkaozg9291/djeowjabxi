@@ -29,7 +29,7 @@ proxies:
     sni: shopee.co.id
     network: ws
     ws-opts:
-      path: /howdy
+      path: /trojan-ws
       headers:
         Host: shopee.co.id
     udp: true
