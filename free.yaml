@@ -20,7 +20,7 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: USA TJ
+  - name: USA TZ
     server: us2.trojanvh.xyz
     port: 443
     type: trojan
