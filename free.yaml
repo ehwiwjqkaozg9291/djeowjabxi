@@ -20,11 +20,11 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: UK1
-    server: ukt-1.optnl.com
+  - name: DE1
+    server: det-1.optnl.com
     port: 443
     type: trojan
-    password: opentunnel.net-fczafeaq
+    password: opentunnel.net-ioofhaha
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
