@@ -16,7 +16,7 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: 7a28dd80-929e-11ee-b336-205c6d5f5d78
+    password: 1d3471d0-9422-11ee-b034-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
