@@ -37,7 +37,7 @@ proxies:
     sni: shopee.co.id
     udp: true
   - name: US1B
-    server: dynamic-us1b.obfs.xyz
+    server: beacon.liveon.id
     port: 443
     type: vmess
     uuid: 084220f2-b1ff-4050-bf58-f916568b75c8
@@ -45,15 +45,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: dynamic-us1b.obfs.xyz
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: shopee.co.id
+        Host: dynamic-us1b.obfs.xyz
     udp: true
   - name: SG1B
-    server: dynamic-sg1b.obfs.xyz
+    server: beacon.liveon.id
     port: 443
     type: vmess
     uuid: 44301322-f1c6-4f7d-ae91-477db524066a
@@ -61,12 +61,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: dynamic-sg1b.obfs.xyz
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: shopee.co.id
+        Host: dynamic-sg1b.obfs.xyz
     udp: true
   - name: Incapsula
     server: beacon.liveon.id
