@@ -16,7 +16,7 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: 1d3471d0-9422-11ee-b034-205c6d5f5d78
+    password: 117cd390-949e-11ee-b836-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -35,6 +35,38 @@ proxies:
     password: opentunnel.net-dauogxchz
     skip-cert-verify: true
     sni: shopee.co.id
+    udp: true
+  - name: US1B
+    server: dynamic-us1b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 084220f2-b1ff-4050-bf58-f916568b75c8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: shopee.co.id
+    udp: true
+  - name: SG1B
+    server: dynamic-sg1b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 44301322-f1c6-4f7d-ae91-477db524066a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: shopee.co.id
     udp: true
   - name: Incapsula
     server: beacon.liveon.id
