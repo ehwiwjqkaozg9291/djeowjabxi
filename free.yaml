@@ -12,19 +12,19 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true 
+  - name: USA Trojan
+    server: nlt-1.optnl.com
+    port: 443
+    type: trojan
+    password: pentunnel.net-fqcxawq
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: NL OPTNL
     server: nlt-1.optnl.com
     port: 443
     type: trojan
-    password: 4e7bf280-95af-11ee-b131-205c6d5f5d78
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: USA Trojan
-    server: us2.oceis.net
-    port: 443
-    type: trojan
-    password: opentunnel.net-fqcxawq
+    password: o4e7bf280-95af-11ee-b131-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
