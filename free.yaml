@@ -12,27 +12,19 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true 
-  - name: UKMAX
-    server: uk1-vmess.sshmax.xyz
+  - name: NL OPTNL
+    server: nlt-1.optnl.com
     port: 443
-    type: vmess
-    uuid: 8531a1c0-4c8d-4b76-83ad-74eb0e940344
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 4e7bf280-95af-11ee-b131-205c6d5f5d78
     skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: shopee.co.id
+    sni: shopee.co.id
     udp: true
   - name: USA Trojan
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: 4e7bf280-95af-11ee-b131-205c6d5f5d78
+    password: opentunnel.net-fqcxawq
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
