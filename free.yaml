@@ -11,6 +11,22 @@ proxies:
       path: /howdy
       headers:
         Host: 3.lowh.net
+    udp: true 
+  - name: UKMAX
+    server: uk1-vmess.sshmax.xyz
+    port: 443
+    type: vmess
+    uuid: 8531a1c0-4c8d-4b76-83ad-74eb0e940344
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: shopee.co.id
     udp: true
   - name: USA Trojan
     server: us2.oceis.net
@@ -20,24 +36,11 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: FR VPNHCK
-    server: fr2.trojanvh.xyz
+  - name: AU JAGOAN
+    server: autro.ipservers.xyz
     port: 443
     type: trojan
-    password: 9f01a92f-544c-441c-bbb9-236147df172d
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: shopee.co.id
-    udp: true
-  - name: FR SSHMX
-    server: fr1-t.sshmax.xyz
-    port: 443
-    type: trojan
-    password: dab40765-24f6-4326-9864-ea44dd2ccbfa
+    password: jagoanssh-faczxqfq
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
