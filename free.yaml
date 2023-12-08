@@ -16,23 +16,28 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: 117cd390-949e-11ee-b836-205c6d5f5d78
+    password: 4e7bf280-95af-11ee-b131-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: DE1
-    server: det-1.optnl.com
+  - name: FR VPNHCK
+    server: fr2.trojanvh.xyz
     port: 443
     type: trojan
-    password: opentunnel.net-ioofhaha
+    password: 9f01a92f-544c-441c-bbb9-236147df172d
     skip-cert-verify: true
     sni: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: shopee.co.id
     udp: true
-  - name: UK2
-    server: ukt-2.optnl.com
+  - name: FR SSHMX
+    server: fr1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: opentunnel.net-dauogxchz
+    password: dab40765-24f6-4326-9864-ea44dd2ccbfa
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
