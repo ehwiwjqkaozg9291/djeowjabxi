@@ -13,10 +13,10 @@ proxies:
         Host: 3.lowh.net
     udp: true 
   - name: USA Trojan
-    server: nlt-1.optnl.com
+    server: us2.oceis.net
     port: 443
     type: trojan
-    password: pentunnel.net-fqcxawq
+    password: 66bd9380-95b2-11ee-b439-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -24,7 +24,7 @@ proxies:
     server: nlt-1.optnl.com
     port: 443
     type: trojan
-    password: o4e7bf280-95af-11ee-b131-205c6d5f5d78
+    password: opentunnel.net-fqcxawq
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
