@@ -12,17 +12,6 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: TJ GRPC
-    server: jala.iptunnels.com
-    port: 443
-    type: trojan
-    password: fdbfae520fa5cbaa
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
-    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
@@ -66,7 +55,89 @@ proxies:
       path: /buy-trojan-ws-pm-telegram-at-synricha
       headers:
         Host: cpanel.iptunnels.com
-    udp: true 
+    udp: true
+  - name: VM2 IPTNL
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 2d8ad55b-26f5-4835-8456-3328d7c3bf0b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jala.iptunnels.com
+    network: ws
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: VL2 IPTNL
+    server: beacon.liveon.id
+    port: 80
+    type: vless
+    uuid: e9f65734-2dda-4f86-8780-0b6174caefcb
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jala.iptunnels.com
+    network: ws
+    ws-opts:
+      path: /buy-vless-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: TJ2 IPTNL
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 21eb8b5ba3be45fb
+    skip-cert-verify: true
+    sni: jala.iptunnels.com
+    network: ws
+    ws-opts:
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: VM3 IPTNL
+    server: jala.iptunnels.com
+    port: 443
+    type: vmess
+    uuid: c03ee5ce-940b-4160-abdf-825a4079bb67
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
+    udp: true
+  - name: VL3 IPTNL
+    server: jala.iptunnels.com
+    port: 443
+    type: vless
+    uuid: 5ea58851-ec5f-4af1-92d6-9a6ef61c500a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: buy-vless-grpc-pm-telegram-at-synricha
+    udp: true
+  - name: TJ3 IPTNL
+    server: jala.iptunnels.com
+    port: 443
+    type: trojan
+    password: fdbfae520fa5cbaa
+    skip-cert-verify: true
+    sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
+    udp: true
   - name: USA Trojan
     server: us2.oceis.net
     port: 443
