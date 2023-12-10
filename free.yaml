@@ -146,14 +146,6 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
-  - name: USA Trojan
-    server: us2.oceis.net
-    port: 443
-    type: trojan
-    password: 0f1ecf30-9717-11ee-b532-205c6d5f5d78
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
   - name: IDJ OPTNL
     server: idt-1.optnl.com
     port: 443
