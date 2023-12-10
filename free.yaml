@@ -28,6 +28,22 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: UK2 OPTNL
+    server: ukt-2.optnl.com
+    port: 443
+    type: trojan
+    password: opentunnel.net-fqwezx
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: CA OPTNL
+    server: cat-1.optnl.com
+    port: 443
+    type: trojan
+    password: opentunnel.net-iodsaef
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: AU JAGOAN
     server: autro.ipservers.xyz
     port: 443
