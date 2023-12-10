@@ -20,13 +20,27 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: USA HOWDY
-    server: us5.socifiles.com
+  - name: SG1 CSSH
+    server: sg1tr-grpc.createv2ray.com
     port: 443
     type: trojan
-    password: 544f8a00-977b-11ee-9208-1239d0255272
+    password: 5630ad37-fd82-48e4-bf5c-4eb7ec6a3027
     skip-cert-verify: true
     sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG2 PSSH
+    server: sg2tr-grpc.createv2ray.com
+    port: 443
+    type: trojan
+    password: 5c1290b9-3bf7-4487-960d-f0749d48eac4
+    skip-cert-verify: true
+    sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
     udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
