@@ -16,7 +16,7 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: 66bd9380-95b2-11ee-b439-205c6d5f5d78
+    password: 0f1ecf30-9717-11ee-b532-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -155,6 +155,21 @@ proxies:
       path: /?ed=2048
       headers:
         Host: net8.ntr.biz.id
+    udp: true
+  - name: M247
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: net16.ntr.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net16.ntr.biz.id
     udp: true
   - name: NETHER
     server: vmess-adv-nl01.globalssh.xyz
