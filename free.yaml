@@ -20,6 +20,14 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: IDJ OPTNL
+    server: idt-1.optnl.com
+    port: 443
+    type: trojan
+    password: opentunnel.net-gqreas
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: NL OPTNL
     server: nlt-1.optnl.com
     port: 443
