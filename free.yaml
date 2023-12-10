@@ -12,6 +12,17 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
+  - name: TJ GRPC
+    server: jala.iptunnels.com
+    port: 443
+    type: trojan
+    password: fdbfae520fa5cbaa
+    skip-cert-verify: true
+    sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
+    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
