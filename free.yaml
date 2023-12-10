@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: cpanel.iptunnels.com
     udp: true
-  - name: HostHatch
+  - name: VL IPTNL
     server: beacon.liveon.id
     port: 80
     type: vless
