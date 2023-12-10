@@ -20,6 +20,17 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: US gRPC
+    server: us5.socifiles.com
+    port: 443
+    type: trojan
+    password: 7929aab0-977a-11ee-91f4-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
