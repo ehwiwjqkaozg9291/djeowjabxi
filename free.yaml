@@ -22,14 +22,11 @@ proxies:
     udp: true
   - name: VHCK FR1
     server: fr1.trojanvh.xyz
-    port: 443
+    port: 2053
     type: trojan
     password: f7c52666-dc24-4714-8059-db8e664fb1a3
     skip-cert-verify: true
     sni: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
     udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
