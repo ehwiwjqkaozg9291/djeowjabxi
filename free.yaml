@@ -233,7 +233,7 @@ proxies:
     server: autro.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-faczxqfq
+    password: jagoanssh-r132dsx
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
