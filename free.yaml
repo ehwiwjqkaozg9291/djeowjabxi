@@ -20,22 +20,11 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: SG1 CSSH
-    server: sg1tr-grpc.createv2ray.com
+  - name: VHCK FR1
+    server: fr1.trojanvh.xyz
     port: 443
     type: trojan
-    password: 5630ad37-fd82-48e4-bf5c-4eb7ec6a3027
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: SG2 PSSH
-    server: sg2tr-grpc.createv2ray.com
-    port: 443
-    type: trojan
-    password: 5c1290b9-3bf7-4487-960d-f0749d48eac4
+    password: f7c52666-dc24-4714-8059-db8e664fb1a3
     skip-cert-verify: true
     sni: shopee.co.id
     network: grpc
