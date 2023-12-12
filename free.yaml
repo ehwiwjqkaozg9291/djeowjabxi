@@ -62,7 +62,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: 42db5f7e-ba61-4954-886c-ff323e3ad0e6
+    uuid: 0764213a-6dc7-4cf4-be7f-7a30424361c0
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -77,7 +77,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 6d4da7f962b2c667
+    password: ed6caa4105665be9
     skip-cert-verify: true
     sni: cpanel.iptunnels.com
     network: ws
@@ -106,7 +106,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: e9f65734-2dda-4f86-8780-0b6174caefcb
+    uuid: e0c78882-cb70-4c7b-851e-6b97cf32bddd
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -121,7 +121,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 21eb8b5ba3be45fb
+    password: e9633c640da4e519
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -131,6 +131,50 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
   - name: VM3 IPTNL
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: d3acb645-b1ff-4d9b-ac9f-8155fa785616
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jala.iptunnels.com
+    network: ws
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: VL3 IPTNL
+    server: beacon.liveon.id
+    port: 80
+    type: vless
+    uuid: e9f65734-2dda-4f86-8780-0b6174caefcb
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jala.iptunnels.com
+    network: ws
+    ws-opts:
+      path: /buy-vless-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: TJ3 IPTNL
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 128e482aca5be4c5
+    skip-cert-verify: true
+    sni: jala.iptunnels.com
+    network: ws
+    ws-opts:
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: VM4 IPTNL
     server: jala.iptunnels.com
     port: 443
     type: vmess
@@ -144,11 +188,11 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
     udp: true
-  - name: VL3 IPTNL
+  - name: VL4 IPTNL
     server: jala.iptunnels.com
     port: 443
     type: vless
-    uuid: 5ea58851-ec5f-4af1-92d6-9a6ef61c500a
+    uuid: e0c78882-cb70-4c7b-851e-6b97cf32bddd
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -157,7 +201,7 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-vless-grpc-pm-telegram-at-synricha
     udp: true
-  - name: TJ3 IPTNL
+  - name: TJ4 IPTNL
     server: jala.iptunnels.com
     port: 443
     type: trojan
