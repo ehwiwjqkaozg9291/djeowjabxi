@@ -20,14 +20,6 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: VHCK FR1
-    server: fr1.trojanvh.xyz
-    port: 2053
-    type: trojan
-    password: f7c52666-dc24-4714-8059-db8e664fb1a3
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
@@ -183,11 +175,19 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
+  - name: CA OPTNL
+    server: cat-1.optnl.com
+    port: 443
+    type: trojan
+    password: opentunnel.net-wquiegdoq
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: IDJ OPTNL
     server: idt-1.optnl.com
     port: 443
     type: trojan
-    password: opentunnel.net-gqreas
+    password: opentunnel.net-yuqgewfi
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
