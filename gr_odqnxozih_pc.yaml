@@ -1,3 +1,4 @@
+proxies:
   - name: Hide SGPC
     server: sg-gf.webkuy.my.id
     port: 443
