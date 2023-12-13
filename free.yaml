@@ -153,14 +153,6 @@ proxies:
       headers:
         Host: jala.iptunnels.com
     udp: true
-  - name: CA1 OPTNL
-    server: cat-1.optnl.com
-    port: 443
-    type: trojan
-    password: opentunnel.net-fewqczx
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
   - name: IDJ OPTNL
     server: idt-1.optnl.com
     port: 443
@@ -185,11 +177,19 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: CA JAGOAN
+    server: catro.ipservers.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-ntgonddez
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: AU JAGOAN
     server: autro.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-r132dsx
+    password: jagoanssh-gfwaddf
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
