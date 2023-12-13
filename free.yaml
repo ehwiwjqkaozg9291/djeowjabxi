@@ -153,7 +153,7 @@ proxies:
       headers:
         Host: jala.iptunnels.com
     udp: true
-  - name: CA OPTNL
+  - name: CA1 OPTNL
     server: cat-1.optnl.com
     port: 443
     type: trojan
