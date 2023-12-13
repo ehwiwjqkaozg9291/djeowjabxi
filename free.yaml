@@ -20,7 +20,7 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: PREM HIDESSH
+  - name: Hide SG
     server: beacon.liveon.id
     port: 80
     type: vmess
@@ -152,44 +152,6 @@ proxies:
       path: /buy-trojan-ws-pm-telegram-at-synricha
       headers:
         Host: jala.iptunnels.com
-    udp: true
-  - name: VM4 IPTNL
-    server: jala.iptunnels.com
-    port: 443
-    type: vmess
-    uuid: c03ee5ce-940b-4160-abdf-825a4079bb67
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
-    udp: true
-  - name: VL4 IPTNL
-    server: jala.iptunnels.com
-    port: 443
-    type: vless
-    uuid: 5ea58851-ec5f-4af1-92d6-9a6ef61c500a
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: buy-vless-grpc-pm-telegram-at-synricha
-    udp: true
-  - name: TJ4 IPTNL
-    server: jala.iptunnels.com
-    port: 443
-    type: trojan
-    password: fdbfae520fa5cbaa
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
   - name: CA OPTNL
     server: cat-1.optnl.com
