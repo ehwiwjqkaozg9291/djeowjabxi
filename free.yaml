@@ -231,12 +231,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net1.ntr.biz.id
+    servername: net1.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net1.ntr.biz.id
+        Host: net1.zxv.biz.id
     udp: true
   - name: ZTN
     server: beacon.liveon.id
@@ -246,12 +246,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net2.ntr.biz.id
+    servername: net2.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net2.ntr.biz.id
+        Host: net2.zxv.biz.id
     udp: true
   - name: Tencent Cloud
     server: beacon.liveon.id
@@ -261,12 +261,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net3.ntr.biz.id
+    servername: net3.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net3.ntr.biz.id
+        Host: net3.zxv.biz.id
     udp: true
   - name: Linode
     server: beacon.liveon.id
@@ -276,12 +276,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net4.ntr.biz.id
+    servername: net4.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net4.ntr.biz.id
+        Host: net4.zxv.biz.id
     udp: true
   - name: HostHatch
     server: beacon.liveon.id
@@ -291,12 +291,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net5.ntr.biz.id
+    servername: net5.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net5.ntr.biz.id
+        Host: net5.zxv.biz.id
     udp: true
   - name: Global Cloud
     server: beacon.liveon.id
@@ -306,12 +306,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net6.ntr.biz.id
+    servername: net6.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net6.ntr.biz.id
+        Host: net6.zxv.biz.id
     udp: true
   - name: WebHorizon
     server: beacon.liveon.id
@@ -321,12 +321,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net7.ntr.biz.id
+    servername: net7.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net7.ntr.biz.id
+        Host: net7.zxv.biz.id
     udp: true
   - name: CenterHop
     server: beacon.liveon.id
@@ -336,12 +336,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net8.ntr.biz.id
+    servername: net8.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net8.ntr.biz.id
+        Host: net8.zxv.biz.id
     udp: true
   - name: Alibaba
     server: beacon.liveon.id
@@ -351,12 +351,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net9.ntr.biz.id
+    servername: net9.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net9.ntr.biz.id
+        Host: net9.zxv.biz.id
     udp: true
   - name: M247
     server: beacon.liveon.id
@@ -366,12 +366,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net16.ntr.biz.id
+    servername: net16.zxv.biz.id
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: net16.ntr.biz.id
+        Host: net16.zxv.biz.id
     udp: true
   - name: NETHER
     server: vmess-adv-nl01.globalssh.xyz
