@@ -189,7 +189,7 @@ proxies:
     server: cat-1.optnl.com
     port: 443
     type: trojan
-    password: opentunnel.net-iodsaef
+    password: opentunnel.net-fewqczx
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
