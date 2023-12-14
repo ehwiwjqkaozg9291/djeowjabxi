@@ -20,6 +20,14 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: ASIA TROJAN
+    server: asia.oceis.net
+    port: 443
+    type: trojan
+    password: 61008cc0-9a35-11ee-b133-205c6d5f5d78
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: Hide SG
     server: beacon.liveon.id
     port: 80
