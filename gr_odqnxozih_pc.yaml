@@ -1,18 +1,4 @@
 proxies:
-  - name: Hide SGPC
-    server: sg-gf.webkuy.my.id
-    port: 443
-    type: vmess
-    uuid: 96a5909d-8a21-4e7f-92cf-1167313d899c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess
-    udp: true
   - name: VM4 IPTNL
     server: jala.iptunnels.com
     port: 443
@@ -31,7 +17,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vless
-    uuid: 5ea58851-ec5f-4af1-92d6-9a6ef61c500a
+    uuid: 6cf0aa08-5a9d-4546-94ac-44ebde248f90
     cipher: auto
     tls: true
     skip-cert-verify: true
