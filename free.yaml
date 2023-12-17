@@ -16,7 +16,7 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: d91d2470-976b-11ee-b133-205c6d5f5d78
+    password: b97676a0-9ca3-11ee-b034-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -28,27 +28,11 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: Hide SG
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 96a5909d-8a21-4e7f-92cf-1167313d899c
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg-gf.webkuy.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg-gf.webkuy.my.id
-    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 6b7d5395-d1e9-4fa9-abcd-28832658bc06
+    uuid: 1c4d826c-aa47-432a-ab82-44d3dc8bfd9b
     alterId: 0
     cipher: auto
     tls: false
@@ -64,7 +48,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: e6de9c1a-778f-441a-b39f-2ccb384d37e5
+    uuid: e8d0bcc1-d92e-460a-b223-d8842889e247
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -79,7 +63,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 5a81822e84e00cb7
+    password: c838a38c7ab56785
     skip-cert-verify: true
     sni: cpanel.iptunnels.com
     network: ws
@@ -92,7 +76,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 4ecf4d14-a2a7-4e32-af02-d5ab940689be
+    uuid: 67a06a79-b653-4796-b160-cb94631cac4b
     alterId: 0
     cipher: auto
     tls: false
@@ -108,7 +92,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: efb631277e9fe438
+    password: 8d02ce8cedccad34
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -121,7 +105,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: af04afdb-2f3c-489f-90ee-9753ef397c93
+    uuid: ef35b99e-6cb1-4930-ae35-8edff65e2441
     alterId: 0
     cipher: auto
     tls: false
@@ -137,7 +121,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: f6dd8dbe-2580-4740-803d-29763432855a
+    uuid: f2f3925c-f3d6-4549-a356-6ba565885c38
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -152,7 +136,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 8de6911517030934
+    password: 53233d51dcc5bb0a
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -335,6 +319,36 @@ proxies:
       path: /?ed=2048
       headers:
         Host: net9.zxv.biz.id
+    udp: true
+  - name: DOVL
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: net10.zxv.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net10.zxv.biz.id
+    udp: true
+  - name: UK DEDI
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: net12.zxv.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: net12.zxv.biz.id
     udp: true
   - name: M247
     server: beacon.liveon.id
