@@ -63,7 +63,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: c838a38c7ab56785
+    password: 9153888e14f01993
     skip-cert-verify: true
     sni: cpanel.iptunnels.com
     network: ws
