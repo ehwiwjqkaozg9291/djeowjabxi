@@ -3,7 +3,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vmess
-    uuid: c03ee5ce-940b-4160-abdf-825a4079bb67
+    uuid: 70b017d5-5246-46bb-a04d-33f23763ceac
     alterId: 0
     cipher: auto
     tls: true
@@ -30,7 +30,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: d6dd9ad67415a1a7
+    password: 8ba3f2304d0be713
     skip-cert-verify: true
     sni: shopee.co.id
     network: grpc
