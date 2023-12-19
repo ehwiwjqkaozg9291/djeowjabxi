@@ -413,3 +413,18 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
+  - name: 162 ALI
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 3k.pureboy.eu.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3k.pureboy.eu.org
+    udp: true
