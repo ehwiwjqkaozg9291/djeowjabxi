@@ -48,3 +48,14 @@ proxies:
     skip-cert-verify: true
     servername: shopee.co.id
     udp: true
+  - name: 596 ORACLE
+    server: 158.178.227.16
+    port: 30839
+    type: vmess
+    uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
