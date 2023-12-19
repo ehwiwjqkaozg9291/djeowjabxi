@@ -16,7 +16,7 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: b97676a0-9ca3-11ee-b034-205c6d5f5d78
+    password: 9e7282c0-9e34-11ee-b731-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -24,7 +24,7 @@ proxies:
     server: asia.oceis.net
     port: 443
     type: trojan
-    password: 61008cc0-9a35-11ee-b133-205c6d5f5d78
+    password: 23b29780-9e35-11ee-b136-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -32,7 +32,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 1c4d826c-aa47-432a-ab82-44d3dc8bfd9b
+    uuid: b4f9d21d-1d3a-4463-8b7e-248ccbb2752a
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: e8d0bcc1-d92e-460a-b223-d8842889e247
+    uuid: 33024f81-96d7-4077-bf0f-d62d7958341b
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -92,7 +92,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 8d02ce8cedccad34
+    password: 0b749c6221a85096
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -105,7 +105,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: ef35b99e-6cb1-4930-ae35-8edff65e2441
+    uuid: 981482ab-66aa-4db2-8065-d400916d6600
     alterId: 0
     cipher: auto
     tls: false
@@ -121,7 +121,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: f2f3925c-f3d6-4549-a356-6ba565885c38
+    uuid: 08fa5a0d-ee47-4e7b-b399-c4bd1c3d95df
     cipher: auto
     tls: false
     skip-cert-verify: true
