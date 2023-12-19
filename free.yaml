@@ -365,53 +365,29 @@ proxies:
       headers:
         Host: net16.zxv.biz.id
     udp: true
-  - name: NETHER
-    server: vmess-adv-nl01.globalssh.xyz
+  - name: DE GBL
+    server: autro.ipservers.xyz
     port: 443
-    type: vmess
-    uuid: 28a02508-244c-46c8-8004-2205659c0e7a
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 123zxc
     skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: shopee.co.id
+    sni: shopee.co.id
     udp: true
-  - name: Canada
-    server: vmess-ovh-ca01.globalssh.xyz
+  - name: DE GBL
+    server: autro.ipservers.xyz
     port: 443
-    type: vmess
-    uuid: 1f01abea-2906-428c-a9d7-04a5a7c66b58
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 123zxc
     skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: shopee.co.id
+    sni: shopee.co.id
     udp: true
-  - name: DEE
-    server: vmess-ctb-de01.globalssh.xyz
+  - name: NL GBL
+    server: autro.ipservers.xyz
     port: 443
-    type: vmess
-    uuid: 9eaa4ab0-097a-4936-92b7-58b214c1908a
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 123zxc
     skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: shopee.co.id
+    sni: shopee.co.id
     udp: true
   - name: 162 ALI
     server: beacon.liveon.id
