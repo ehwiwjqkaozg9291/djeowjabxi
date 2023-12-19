@@ -365,8 +365,8 @@ proxies:
       headers:
         Host: net16.zxv.biz.id
     udp: true
-  - name: DE GBL
-    server: autro.ipservers.xyz
+  - name: CA GBL
+    server: trojan-ovh-ca01.globalssh.xyz
     port: 443
     type: trojan
     password: 123zxc
@@ -374,7 +374,7 @@ proxies:
     sni: shopee.co.id
     udp: true
   - name: DE GBL
-    server: autro.ipservers.xyz
+    server: trojan-ctb-de01.globalssh.xyz
     port: 443
     type: trojan
     password: 123zxc
@@ -382,7 +382,7 @@ proxies:
     sni: shopee.co.id
     udp: true
   - name: NL GBL
-    server: autro.ipservers.xyz
+    server: trojan-adv-nl01.globalssh.xyz
     port: 443
     type: trojan
     password: 123zxc
