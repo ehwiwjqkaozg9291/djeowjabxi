@@ -413,3 +413,14 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
+  - name: 633 ALI
+    server: 47.236.123.100
+    port: 33681
+    type: vmess
+    uuid: 7202d11f-2759-4d8c-e1d1-14cb138e4205
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
