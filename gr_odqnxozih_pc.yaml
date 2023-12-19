@@ -37,3 +37,102 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
+  - name: 603 ALI
+    server: 47.236.2.149
+    port: 6666
+    type: vmess
+    uuid: cd76100e-3a4a-4648-96c0-b22376dfafa1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 580 ALI
+    server: 47.236.111.83
+    port: 31091
+    type: vmess
+    uuid: f0eafd6b-ad39-4875-9b29-722237d155f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 633 ALI
+    server: 47.236.123.100
+    port: 33681
+    type: vmess
+    uuid: 7202d11f-2759-4d8c-e1d1-14cb138e4205
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+   - name: 596 ORACLEE
+    server: 158.178.227.16
+    port: 30839
+    type: vmess
+    uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 596 ORACLE
+    server: 158.178.227.16
+    port: 30839
+    type: vmess
+    uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 715 ALI
+    server: 8.219.240.120
+    port: 32969
+    type: vmess
+    uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 580 ALI
+    server: 47.236.111.83
+    port: 31091
+    type: vmess
+    uuid: f0eafd6b-ad39-4875-9b29-722237d155f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 608 IKD
+    server: 103.177.94.138
+    port: 22843
+    type: vmess
+    uuid: 009bae05-80bb-4e27-d2c1-efea629e95ae
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
+  - name: 633 ALI
+    server: 47.236.123.100
+    port: 33681
+    type: vmess
+    uuid: 7202d11f-2759-4d8c-e1d1-14cb138e4205
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: shopee.co.id
+    udp: true
