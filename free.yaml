@@ -16,7 +16,7 @@ proxies:
     server: us2.oceis.net
     port: 443
     type: trojan
-    password: 9e7282c0-9e34-11ee-b731-205c6d5f5d78
+    password: 13c12c40-9f29-11ee-b936-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -32,7 +32,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: b4f9d21d-1d3a-4463-8b7e-248ccbb2752a
+    uuid: a495206b-eea6-45c7-87ae-66703123a284
     alterId: 0
     cipher: auto
     tls: false
@@ -105,7 +105,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 981482ab-66aa-4db2-8065-d400916d6600
+    uuid: ed982744-7159-4f1c-8a78-30788bb8ddfd
     alterId: 0
     cipher: auto
     tls: false
@@ -136,7 +136,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 53233d51dcc5bb0a
+    password: 07209489c1a77303
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -149,7 +149,7 @@ proxies:
     server: idt-1.optnl.com
     port: 443
     type: trojan
-    password: opentunnel.net-yuqgewfi
+    password: opentunnel.net-tredxgo
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -173,7 +173,7 @@ proxies:
     server: catro.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-ntgonddez
+    password: jagoanssh-wqdqsczx
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -181,7 +181,7 @@ proxies:
     server: autro.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-gfwaddf
+    password: jagoanssh-gyqewgui
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
