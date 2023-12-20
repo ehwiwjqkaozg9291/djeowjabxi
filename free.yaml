@@ -366,28 +366,52 @@ proxies:
         Host: net16.zxv.biz.id
     udp: true
   - name: CA GBL
-    server: trojan-ovh-ca01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: 123zxc
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 2fd21cc7-ef2c-4e1a-9142-9bd0b204194a
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: shopee.co.id
+    servername: vmess-ovh-ca01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-ovh-ca01.globalssh.xyz
     udp: true
   - name: DE GBL
-    server: trojan-ctb-de01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: 123zxc
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 1976032c-ac19-4dde-b6a3-168f6192b325
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: shopee.co.id
+    servername: vmess-ctb-de01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-ctb-de01.globalssh.xyz
     udp: true
   - name: NL GBL
-    server: trojan-adv-nl01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: 123zxc
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 774bd336-76d8-4033-be01-db512eeee541
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: shopee.co.id
+    servername: vmess-adv-nl01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-adv-nl01.globalssh.xyz
     udp: true
   - name: 162 ALI
     server: beacon.liveon.id
