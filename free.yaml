@@ -428,86 +428,14 @@ proxies:
       headers:
         Host: 3k.pureboy.eu.org
     udp: true
-  - name: GRN SG
+  - name: FR2 JANTIT
     server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 6db1e064-8c8e-4fba-99ac-8a64ad88ae23
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg1-vmess.greenssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1-vmess.greenssh.xyz
-    udp: true
-  - name: REAL SG
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 7f5e52a5-2bdb-467d-a9db-185aae9dd06e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: nl1-vmess.realssh.site
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: nl1-vmess.realssh.site
-    udp: true
-  - name: VSTNL ID
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: e9eef421-4498-4e79-a158-d7e8a3528348
-    skip-cert-verify: true
-    sni: id2.josvpn.me
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id2.josvpn.me
-    udp: true
-  - name: VSTNL IDPC
-    server: id2.josvpn.me
-    port: 443
-    type: trojan
-    password: 5631c560-01a9-4ab3-9bca-460dde654620
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan
-    udp: true
-  - name: JANTIT
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: df80a94c-a0aa-11ee-ba9a-cb3ad73af9d1
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg8.vpnjantit.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: sg8.vpnjantit.com
-    udp: true
-  - name: FR JANTIT
-    server: beacon.liveon.id
-    port: 10000
+    port: 8080
     type: vmess
     uuid: d54a89a6-a0ab-11ee-bdd1-8f932328224a
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: fr2.vpnjantit.com
     network: ws
