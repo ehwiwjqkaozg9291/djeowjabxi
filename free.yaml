@@ -13,10 +13,10 @@ proxies:
         Host: 3.lowh.net
     udp: true
   - name: USA TROJAN
-    server: us2.oceis.net
+    server: america1.fufo.org
     port: 443
     type: trojan
-    password: 13c12c40-9f29-11ee-b936-205c6d5f5d78
+    password: 4dddbf10-a09a-11ee-b333-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
