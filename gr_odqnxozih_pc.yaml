@@ -37,3 +37,25 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
+  - name: USA GRPC
+    server: america1.fufo.org
+    port: 443
+    type: trojan
+    password: d61cc9d0-a0d6-11ee-b532-205c6d5f5d78
+    skip-cert-verify: true
+    sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: ASIA GRPC
+    server: asia1.fufo.org
+    port: 443
+    type: trojan
+    password: f6c95d30-a0d6-11ee-b532-205c6d5f5d78
+    skip-cert-verify: true
+    sni: shopee.co.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
