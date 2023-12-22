@@ -16,7 +16,7 @@ proxies:
     server: america1.fufo.org
     port: 443
     type: trojan
-    password: 4dddbf10-a09a-11ee-b333-205c6d5f5d78
+    password: 4f5b1210-a0d7-11ee-b534-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -427,20 +427,4 @@ proxies:
       path: /
       headers:
         Host: 3k.pureboy.eu.org
-    udp: true
-  - name: FR2 JANTIT
-    server: beacon.liveon.id
-    port: 8080
-    type: vmess
-    uuid: d54a89a6-a0ab-11ee-bdd1-8f932328224a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: fr2.vpnjantit.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: fr2.vpnjantit.com
     udp: true
