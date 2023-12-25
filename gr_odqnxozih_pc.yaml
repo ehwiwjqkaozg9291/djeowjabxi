@@ -30,7 +30,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: 6500b0cf3b860f5b
+    password: ec746e844ffbbee5
     skip-cert-verify: true
     sni: shopee.co.id
     network: grpc
