@@ -428,7 +428,7 @@ proxies:
       headers:
         Host: 3k.pureboy.eu.org
     udp: true
-  - name: CFX
+  - name: CEFEX
     server: beacon.liveon.id
     port: 443
     type: vless
