@@ -428,18 +428,3 @@ proxies:
       headers:
         Host: 3k.pureboy.eu.org
     udp: true
-  - name: CEFEX
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: 3f827dd6-886a-41db-8e08-724414bc5a51
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: animated-octo-fiesta-35x.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: animated-octo-fiesta-35x.pages.dev
-    udp: true
