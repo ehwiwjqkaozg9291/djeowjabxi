@@ -431,9 +431,8 @@ proxies:
   - name: CFX
     server: beacon.liveon.id
     port: 443
-    type: vmess
+    type: vless
     uuid: 3f827dd6-886a-41db-8e08-724414bc5a51
-    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
