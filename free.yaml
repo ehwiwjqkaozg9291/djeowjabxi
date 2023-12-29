@@ -185,185 +185,125 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: Incapsula
+  - name: AWS SG1
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net1.zxv.biz.id
+    servername: awssg1.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net1.zxv.biz.id
+        Host: awssg1.viperxgod.biz.id
     udp: true
-  - name: ZTN
+  - name: AWS SG2
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net2.zxv.biz.id
+    servername: awssg2.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net2.zxv.biz.id
+        Host: awssg2.viperxgod.biz.id
     udp: true
-  - name: Tencent Cloud
+  - name: AWS JP
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net3.zxv.biz.id
+    servername: awsjp1.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net3.zxv.biz.id
+        Host: awsjp1.viperxgod.biz.id
     udp: true
-  - name: Linode
+  - name: Linode SG1
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net4.zxv.biz.id
+    servername: linodsg1.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net4.zxv.biz.id
+        Host: linodsg1.viperxgod.biz.id
     udp: true
-  - name: HostHatch
+  - name: Linode SG2
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net5.zxv.biz.id
+    servername: linodsg2.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net5.zxv.biz.id
+        Host: linodsg2.viperxgod.biz.id
     udp: true
-  - name: Global Cloud
+  - name: IT7 US
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net6.zxv.biz.id
+    servername: it7us.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net6.zxv.biz.id
+        Host: it7us.viperxgod.biz.id
     udp: true
-  - name: WebHorizon
+  - name: Azure NL
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net7.zxv.biz.id
+    servername: azurenl1.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net7.zxv.biz.id
+        Host: azurenl1.viperxgod.biz.id
     udp: true
-  - name: CenterHop
+  - name: Azure US
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: net8.zxv.biz.id
+    servername: azureus1.viperxgod.biz.id
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ViperIsGOD
       headers:
-        Host: net8.zxv.biz.id
-    udp: true
-  - name: Alibaba
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: net9.zxv.biz.id
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: net9.zxv.biz.id
-    udp: true
-  - name: DOVL
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: net10.zxv.biz.id
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: net10.zxv.biz.id
-    udp: true
-  - name: UK DEDI
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: net12.zxv.biz.id
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: net12.zxv.biz.id
-    udp: true
-  - name: M247
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: e2443e49-e0ce-4628-808f-76469b53cf66
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: net16.zxv.biz.id
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: net16.zxv.biz.id
+        Host: azureus1.viperxgod.biz.id
     udp: true
   - name: CA GBL
     server: beacon.liveon.id
