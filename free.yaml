@@ -215,7 +215,7 @@ proxies:
       headers:
         Host: awssg2.viperxgod.biz.id
     udp: true
-  - name: AWS JP
+  - name: Linode JP
     server: beacon.liveon.id
     port: 443
     type: vless
