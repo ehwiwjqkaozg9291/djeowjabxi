@@ -16,7 +16,7 @@ proxies:
     server: america1.fufo.org
     port: 443
     type: trojan
-    password: 4f5b1210-a0d7-11ee-b534-205c6d5f5d78
+    password: a47f31c0-a93b-11ee-b535-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -24,7 +24,7 @@ proxies:
     server: asia1.fufo.org
     port: 443
     type: trojan
-    password: 0f237ff0-a09a-11ee-b934-205c6d5f5d78
+    password: fe5b3120-a93a-11ee-b730-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
