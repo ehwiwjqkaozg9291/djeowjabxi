@@ -1,5 +1,5 @@
 proxies:
-  - name: Azure SG
+  - name: Azure SG1
     server: beacon.liveon.id
     port: 443
     type: vless
