@@ -1,0 +1,271 @@
+proxies:
+  - name: Azure SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: azuresg.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: azuresg.viperxgod.biz.id
+    udp: true
+  - name: DataCamp SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: datacamp-sg.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: datacamp-sg.viperxgod.biz.id
+    udp: true
+  - name: DataCamp CA
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: datacamp-ca.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: datacamp-ca.viperxgod.biz.id
+    udp: true
+  - name: Datacamp DE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: datacamp-de.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: datacamp-de.viperxgod.biz.id
+    udp: true
+  - name: Zhejiang SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zhejiang-sg.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: zhejiang-sg.viperxgod.biz.id
+    udp: true
+  - name: Zhejiang HK
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zhejiang-hk.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: zhejiang-hk.viperxgod.biz.id
+    udp: true
+  - name: Zhejiang JP
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zhejiang-jp.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: zhejiang-jp.viperxgod.biz.id
+    udp: true
+  - name: AWS SG1
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: awssg1.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: awssg1.viperxgod.biz.id
+    udp: true
+  - name: AWS SG2
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: awssg2.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: awssg2.viperxgod.biz.id
+    udp: true
+  - name: Linode JP
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: awsjp1.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: awsjp1.viperxgod.biz.id
+    udp: true
+  - name: Linode SG1
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: linodsg1.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: linodsg1.viperxgod.biz.id
+    udp: true
+  - name: Linode SG2
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: linodsg2.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: linodsg2.viperxgod.biz.id
+    udp: true
+  - name: IT7 US
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: it7us.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: it7us.viperxgod.biz.id
+    udp: true
+  - name: Azure NL
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: azurenl1.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: azurenl1.viperxgod.biz.id
+    udp: true
+  - name: Azure US
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: azureus1.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: azureus1.viperxgod.biz.id
+    udp: true
+  - name: Hetzner DE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hetzner-de.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: hetzner-de.viperxgod.biz.id
+    udp: true
+  - name: Gibirnet Turki
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: laivetrapturki.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: laivetrapturki.viperxgod.biz.id
+    udp: true
+  - name: 162 ALI
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 3k.pureboy.eu.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3k.pureboy.eu.org
+    udp: true
