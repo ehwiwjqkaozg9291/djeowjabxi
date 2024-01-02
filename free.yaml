@@ -136,7 +136,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: e91efbafdeaa5fcf
+    password: bae670fd62160237
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
