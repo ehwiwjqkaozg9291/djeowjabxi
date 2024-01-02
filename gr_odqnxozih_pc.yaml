@@ -3,7 +3,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vmess
-    uuid: 70b017d5-5246-46bb-a04d-33f23763ceac
+    uuid: 33386557-9f50-4932-ac32-9cc9dd9beef8
     alterId: 0
     cipher: auto
     tls: true
@@ -17,7 +17,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vless
-    uuid: ef4605e2-c0f9-4c62-acee-0200b5593cdd
+    uuid: 38ffc685-8462-4efe-b926-d0b9f0ea26e6
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -30,7 +30,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: ec746e844ffbbee5
+    password: 9df2e5c5ae8bd659
     skip-cert-verify: true
     sni: shopee.co.id
     network: grpc
@@ -41,7 +41,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 993be320-a0d8-11ee-b837-205c6d5f5d78
+    uuid: cea3fd10-a93e-11ee-b531-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -57,7 +57,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: b7c23820-a0d8-11ee-b438-205c6d5f5d78
+    uuid: 5a3616e0-a93f-11ee-b134-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -68,21 +68,6 @@ proxies:
       path: /f4jzylu8
       headers:
         Host: us-22.hihu.net
-    udp: true
-  - name: CFX
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: 3f827dd6-886a-41db-8e08-724414bc5a51
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: animated-octo-fiesta-35x.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: animated-octo-fiesta-35x.pages.dev
     udp: true
   - name: BLANK
     server: BLANK.XXX
