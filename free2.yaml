@@ -224,6 +224,21 @@ proxies:
       headers:
         Host: azureus1.viperxgod.biz.id
     udp: true
+  - name: ServerMania US
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 4ee9d86f-b2c6-42a9-bd52-e49b55c68e5a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: colocrossing-us.viperxgod.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: colocrossing-us.viperxgod.biz.id
+    udp: true
   - name: Hetzner DE
     server: beacon.liveon.id
     port: 443
