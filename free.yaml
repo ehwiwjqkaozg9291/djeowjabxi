@@ -223,7 +223,7 @@ proxies:
     type: trojan
     password: 480917e4-a585-41de-a386-c86c8d304d6d
     skip-cert-verify: true
-    sni: ""
+    sni: shopee.co.id
     udp: true
   - name: lionssh_vjhauai-sg.serverfast.pw
     server: tr.sg.serverfast.pw
@@ -234,7 +234,7 @@ proxies:
     sni: sg.serverfast.pw
     network: ws
     ws-opts:
-      path: ?sni=xray-trojan?sni=tls
+      path: /xray-trojan/tls
       headers:
         Host: sg.serverfast.pw
     udp: true
@@ -247,5 +247,53 @@ proxies:
     sni: sg.serverfast.pw
     network: grpc
     grpc-opts:
-      grpc-service-name: "%3Fsni%3Dxray-trojan%3Fsni%3Dgrpc"
+      grpc-service-name: /xray-trojan/grpc
+    udp: true
+  - name: sg.serverfast.pw-tls-lionssh_nvtkfqp
+    server: vm.sg.serverfast.pw
+    port: 443
+    type: vmess
+    uuid: ea1bec51-539f-4710-99d9-45f7043c0b05
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/tls
+      headers:
+        Host: sg.serverfast.pw
+    udp: true
+  - name: sg.serverfast.pw-ntls
+    server: vm.sg.serverfast.pw
+    port: 80
+    type: vmess
+    uuid: ea1bec51-539f-4710-99d9-45f7043c0b05
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg.serverfast.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/ntls
+      headers:
+        Host: sg.serverfast.pw
+    udp: true
+  - name: vmess-ws-tls
+    server: fr-freevmess.privateip.net
+    port: 443
+    type: vmess
+    uuid: 209592f7-f375-4fb0-b54a-cb48591d604c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /FREEVMESS
+      headers:
+        Host: shopee.co.id
     udp: true
