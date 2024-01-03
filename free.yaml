@@ -217,3 +217,24 @@ proxies:
       headers:
         Host: vmess-adv-nl01.globalssh.xyz
     udp: true
+  - name: freevmess fr
+    server: fr-freevmess.privateip.net
+    port: 443
+    type: trojan
+    password: 480917e4-a585-41de-a386-c86c8d304d6d
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG lion
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 9e229950-6cac-47a7-abe3-efc006c42a27
+    skip-cert-verify: true
+    sni: tro.sg.servergo.pw
+    network: ws
+    ws-opts:
+      path: ?sni=xray-trojan?sni=tls
+      headers:
+        Host: tro.sg.servergo.pw
+    udp: true
