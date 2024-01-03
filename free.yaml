@@ -217,40 +217,8 @@ proxies:
       headers:
         Host: vmess-adv-nl01.globalssh.xyz
     udp: true
-  - name: trojan-tcp
-    server: fr-freevmess.privateip.net
-    port: 443
-    type: trojan
-    password: 480917e4-a585-41de-a386-c86c8d304d6d
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: lionssh_vjhauai-sg.serverfast.pw
-    server: tr.sg.serverfast.pw
-    port: 443
-    type: trojan
-    password: 9e229950-6cac-47a7-abe3-efc006c42a27
-    skip-cert-verify: true
-    sni: sg.serverfast.pw
-    network: ws
-    ws-opts:
-      path: /xray-trojan/tls
-      headers:
-        Host: sg.serverfast.pw
-    udp: true
-  - name: lionssh_vjhauai-sg.serverfast.pw 2
-    server: tr.sg.serverfast.pw
-    port: 443
-    type: trojan
-    password: 9e229950-6cac-47a7-abe3-efc006c42a27
-    skip-cert-verify: true
-    sni: sg.serverfast.pw
-    network: grpc
-    grpc-opts:
-      grpc-service-name: /xray-trojan/grpc
-    udp: true
   - name: sg.serverfast.pw-tls-lionssh_nvtkfqp
-    server: vm.sg.serverfast.pw
+    server: beacon.liveon.id
     port: 443
     type: vmess
     uuid: ea1bec51-539f-4710-99d9-45f7043c0b05
@@ -258,15 +226,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: tsel.me
+    servername: vm.sg.serverfast.pw
     network: ws
     ws-opts:
       path: /v2ray-vmess/tls
       headers:
-        Host: sg.serverfast.pw
+        Host: vm.sg.serverfast.pw
     udp: true
   - name: sg.serverfast.pw-ntls
-    server: vm.sg.serverfast.pw
+    server: beacon.liveon.id
     port: 80
     type: vmess
     uuid: ea1bec51-539f-4710-99d9-45f7043c0b05
@@ -274,15 +242,15 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg.serverfast.pw
+    servername: vm.sg.serverfast.pw
     network: ws
     ws-opts:
       path: /v2ray-vmess/ntls
       headers:
-        Host: sg.serverfast.pw
+        Host: vm.sg.serverfast.pw
     udp: true
   - name: vmess-ws-tls
-    server: fr-freevmess.privateip.net
+    server: beacon.liveon.id
     port: 443
     type: vmess
     uuid: 209592f7-f375-4fb0-b54a-cb48591d604c
@@ -290,10 +258,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: fr-freevmess.privateip.net
     network: ws
     ws-opts:
       path: /FREEVMESS
       headers:
-        Host: shopee.co.id
+        Host: fr-freevmess.privateip.net
     udp: true
