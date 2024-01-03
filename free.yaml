@@ -217,24 +217,35 @@ proxies:
       headers:
         Host: vmess-adv-nl01.globalssh.xyz
     udp: true
-  - name: freevmess fr
+  - name: trojan-tcp
     server: fr-freevmess.privateip.net
     port: 443
     type: trojan
     password: 480917e4-a585-41de-a386-c86c8d304d6d
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: ""
     udp: true
-  - name: SG lion
-    server: beacon.liveon.id
+  - name: lionssh_vjhauai-sg.serverfast.pw
+    server: tr.sg.serverfast.pw
     port: 443
     type: trojan
     password: 9e229950-6cac-47a7-abe3-efc006c42a27
     skip-cert-verify: true
-    sni: tro.sg.servergo.pw
+    sni: sg.serverfast.pw
     network: ws
     ws-opts:
       path: ?sni=xray-trojan?sni=tls
       headers:
-        Host: tro.sg.servergo.pw
+        Host: sg.serverfast.pw
+    udp: true
+  - name: lionssh_vjhauai-sg.serverfast.pw 2
+    server: tr.sg.serverfast.pw
+    port: 443
+    type: trojan
+    password: 9e229950-6cac-47a7-abe3-efc006c42a27
+    skip-cert-verify: true
+    sni: sg.serverfast.pw
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "%3Fsni%3Dxray-trojan%3Fsni%3Dgrpc"
     udp: true
