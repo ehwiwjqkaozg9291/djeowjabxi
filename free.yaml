@@ -217,3 +217,19 @@ proxies:
       headers:
         Host: vmess-adv-nl01.globalssh.xyz
     udp: true
+  - name: US GBL
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 578c17fe-6707-4960-b493-6d91d5b2c1bf
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-rs-us01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-rs-us01.globalssh.xyz
+    udp: true
