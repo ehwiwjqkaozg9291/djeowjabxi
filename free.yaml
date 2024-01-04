@@ -8,7 +8,7 @@ proxies:
     sni: 3.lowh.net
     network: ws
     ws-opts:
-      path: /howdy
+      path: /welcome
       headers:
         Host: 3.lowh.net
     udp: true
