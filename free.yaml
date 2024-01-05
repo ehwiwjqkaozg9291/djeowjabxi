@@ -12,19 +12,19 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: USA TROJAN
+  - name: USA12 TJ
     server: america1.fufo.org
     port: 443
     type: trojan
-    password: a47f31c0-a93b-11ee-b535-205c6d5f5d78
+    password: 736e88b0-abc7-11ee-b333-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: ASIA TROJAN
+  - name: ASIA12 TJ
     server: asia1.fufo.org
     port: 443
     type: trojan
-    password: fe5b3120-a93a-11ee-b730-205c6d5f5d78
+    password: befc1410-abc7-11ee-b831-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -32,7 +32,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 0bd4f80f-bd5f-42a3-9139-3c5b6acc0324
+    uuid: e3b41f96-20aa-4f46-930c-63ae18a88c29
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: fbd1224a-3667-48fb-9eab-f7450e205437
+    uuid: 5e47e31b-cf4b-49f2-a3cb-324992d5007f
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -63,7 +63,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 24f85470d766d722
+    password: 55346f135fcda92d
     skip-cert-verify: true
     sni: cpanel.iptunnels.com
     network: ws
@@ -105,7 +105,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 98014764-23c8-428d-a40e-0c4dec427b85
+    uuid: 6e5669ed-6f23-43b0-82d5-988edd39a5a2
     alterId: 0
     cipher: auto
     tls: false
@@ -121,7 +121,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: f313d68b-ead5-4b9f-a858-3a4e78d41be8
+    uuid: 5a06f18e-f911-4d03-b044-bcc9f1cf5f37
     cipher: auto
     tls: false
     skip-cert-verify: true
