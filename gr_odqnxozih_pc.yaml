@@ -30,18 +30,18 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: 9df2e5c5ae8bd659
+    password: 6789c0a33612e34e
     skip-cert-verify: true
     sni: shopee.co.id
     network: grpc
     grpc-opts:
       grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
-  - name: NL29
+  - name: NL12
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: cea3fd10-a93e-11ee-b531-205c6d5f5d78
+    uuid: 0ac3a120-abc8-11ee-b838-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -49,15 +49,15 @@ proxies:
     servername: eu-2.hihu.net
     network: ws
     ws-opts:
-      path: /7oj2pqt4
+      path: /ecr6gjxo
       headers:
         Host: eu-2.hihu.net
     udp: true
-  - name: US29
+  - name: US12
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 5a3616e0-a93f-11ee-b134-205c6d5f5d78
+    uuid: 2ee2cf20-abc8-11ee-b432-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -65,9 +65,33 @@ proxies:
     servername: us-22.hihu.net
     network: ws
     ws-opts:
-      path: /f4jzylu8
+      path: /ks95bjux
       headers:
         Host: us-22.hihu.net
+    udp: true
+  - name: US12 Nflix
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 434c5cd0-abc8-11ee-b134-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: us-netflix.hihu.net
+    network: ws
+    ws-opts:
+      path: /zeq0jt95
+      headers:
+        Host: us-netflix.hihu.net
+    udp: true
+  - name: FR Howdy
+    server: fr1.test3.net
+    port: 443
+    type: trojan
+    password: 8b2d44f0-abc8-11ee-b680-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
     udp: true
   - name: BLANK
     server: BLANK.XXX
