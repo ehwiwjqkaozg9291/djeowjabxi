@@ -1,4 +1,19 @@
 proxies:
+  - name: OVH ESGE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ovh-sg.uchihaudin.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ovh-sg.uchihaudin.biz.id
+    udp: true
   - name: Azure SG
     server: beacon.liveon.id
     port: 443
