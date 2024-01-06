@@ -32,7 +32,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: e3b41f96-20aa-4f46-930c-63ae18a88c29
+    uuid: b5f3949a-956f-44a1-8781-5046f0b08cd3
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: 5e47e31b-cf4b-49f2-a3cb-324992d5007f
+    uuid: eac386a7-457b-4406-83cd-8dfa8aee968a
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -76,7 +76,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 64b9d4ac-67bc-4506-8d7a-6dc117452305
+    uuid: b54a7c50-5ef9-4a5d-9e51-bac24270c070
     alterId: 0
     cipher: auto
     tls: false
@@ -92,7 +92,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 33c8a1dcfc9a07eb
+    password: 1223706262d1619a
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
