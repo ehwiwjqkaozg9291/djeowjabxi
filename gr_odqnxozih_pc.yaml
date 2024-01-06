@@ -93,11 +93,19 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: UK faczx
+  - name: UK Howdy
     server: uk1.test3.net
     port: 443
     type: trojan
     password: b07d2a60-aca2-11ee-afe4-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG faxxz
+    server: sg-4.test3.net
+    port: 443
+    type: trojan
+    password: 4ce6b3e0-aca3-11ee-ab12-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
