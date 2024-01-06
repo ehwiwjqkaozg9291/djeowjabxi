@@ -299,3 +299,18 @@ proxies:
       headers:
         Host: 3k.pureboy.eu.org
     udp: true
+  - name: AWS FREE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aws.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: aws.mr-viper.biz.id
+    udp: true
