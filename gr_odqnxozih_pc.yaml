@@ -101,13 +101,21 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: SG faxxz
-    server: sg-4.test3.net
-    port: 443
-    type: trojan
-    password: 4ce6b3e0-aca3-11ee-ab12-1239d0255272
+  - name: US NFLIX14
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: fa9ff500-ad7d-11ee-97ea-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: shopee.co.id
+    servername: us5.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: us5.socifiles.com
     udp: true
   - name: BLANK
     server: BLANK.XXX
