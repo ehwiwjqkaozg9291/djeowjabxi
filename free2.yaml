@@ -284,6 +284,21 @@ proxies:
       headers:
         Host: hetzner-de.viperxgod.biz.id
     udp: true
+  - name: Hetzner DE2
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hetzner-de.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: hetzner-de.mr-viper.biz.id
+    udp: true
   - name: Gibirnet Turki
     server: beacon.liveon.id
     port: 443
