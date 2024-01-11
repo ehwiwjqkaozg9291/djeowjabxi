@@ -3,7 +3,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vmess
-    uuid: 33386557-9f50-4932-ac32-9cc9dd9beef8
+    uuid: a1d17150-ffbc-4f35-9fad-5ec27a0de442
     alterId: 0
     cipher: auto
     tls: true
@@ -30,7 +30,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: 6789c0a33612e34e
+    password: 7998350b4f277154
     skip-cert-verify: true
     sni: shopee.co.id
     network: grpc
@@ -41,7 +41,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 0ac3a120-abc8-11ee-b838-205c6d5f5d78
+    uuid: 635dae80-b033-11ee-b635-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -49,11 +49,11 @@ proxies:
     servername: eu-2.hihu.net
     network: ws
     ws-opts:
-      path: /ecr6gjxo
+      path: /o0duilfk
       headers:
         Host: eu-2.hihu.net
     udp: true
-  - name: US12
+  - name: US12 DEAD
     server: beacon.liveon.id
     port: 80
     type: vmess
@@ -85,37 +85,21 @@ proxies:
       headers:
         Host: us-netflix.hihu.net
     udp: true
-  - name: FR Howdy
-    server: fr1.test3.net
+  - name: SG18 Howdy
+    server: sg3.socifiles.com
     port: 443
     type: trojan
-    password: 8b2d44f0-abc8-11ee-b680-1239d0255272
+    password: 465b4a10-b032-11ee-8b6f-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: UK Howdy
-    server: uk1.test3.net
+  - name: US18 Howdy
+    server: us1.socifiles.com
     port: 443
     type: trojan
-    password: b07d2a60-aca2-11ee-afe4-1239d0255272
+    password: ab54bb20-b032-11ee-824d-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
-    udp: true
-  - name: US NFLIX14
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: fa9ff500-ad7d-11ee-97ea-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: us5.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: us5.socifiles.com
     udp: true
   - name: BLANK
     server: BLANK.XXX
