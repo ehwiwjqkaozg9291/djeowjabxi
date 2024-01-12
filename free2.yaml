@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: datacamp-sg.viperxgod.biz.id
     udp: true
-  - name: Korea
+  - name: KR1
     server: beacon.liveon.id
     port: 443
     type: vless
@@ -59,7 +59,7 @@ proxies:
       headers:
         Host: kr1.viperxgod.biz.id
     udp: true
-  - name: Korea2
+  - name: KR2
     server: beacon.liveon.id
     port: 443
     type: vless
