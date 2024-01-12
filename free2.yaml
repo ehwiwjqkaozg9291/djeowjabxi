@@ -52,12 +52,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: korea.viperxgod.biz.id
+    servername: kr.viperxgod.biz.id
     network: ws
     ws-opts:
       path: /ViperIsGOD
       headers:
-        Host: korea.viperxgod.biz.id
+        Host: kr1.viperxgod.biz.id
     udp: true
   - name: Korea2
     server: beacon.liveon.id
@@ -67,12 +67,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: korea2.viperxgod.biz.id
+    servername: kr2.viperxgod.biz.id
     network: ws
     ws-opts:
       path: /ViperIsGOD
       headers:
-        Host: korea2.viperxgod.biz.id
+        Host: kr2.viperxgod.biz.id
     udp: true
   - name: DataCamp CA
     server: beacon.liveon.id
