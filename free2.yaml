@@ -74,6 +74,21 @@ proxies:
       headers:
         Host: kr2.viperxgod.biz.id
     udp: true
+  - name: KR Gugel
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: korea.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: korea.mr-viper.biz.id
+    udp: true
   - name: DataCamp CA
     server: beacon.liveon.id
     port: 443
@@ -373,6 +388,66 @@ proxies:
       path: /ViperIsGOD
       headers:
         Host: aws.mr-viper.biz.id
+    udp: true
+  - name: SG DO
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgdo.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: sgdo.mr-viper.biz.id
+    udp: true
+  - name: Zhejiang Indo
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: pro1.uchihaudin.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: pro1.uchihaudin.biz.id
+    udp: true
+  - name: HostHatch
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: pro2.uchihaudin.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: pro2.uchihaudin.biz.id
+    udp: true
+  - name: Leaseweb
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: pro3.uchihaudin.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: pro3.uchihaudin.biz.id
     udp: true
   - name: CF Server
     server: beacon.liveon.id
