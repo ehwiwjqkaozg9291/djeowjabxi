@@ -53,38 +53,6 @@ proxies:
       headers:
         Host: eu-2.hihu.net
     udp: true
-  - name: US12 DEAD
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 2ee2cf20-abc8-11ee-b432-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: us-22.hihu.net
-    network: ws
-    ws-opts:
-      path: /ks95bjux
-      headers:
-        Host: us-22.hihu.net
-    udp: true
-  - name: US12 Nflix
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 434c5cd0-abc8-11ee-b134-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: us-netflix.hihu.net
-    network: ws
-    ws-opts:
-      path: /zeq0jt95
-      headers:
-        Host: us-netflix.hihu.net
-    udp: true
   - name: SG18 Howdy
     server: sg3.socifiles.com
     port: 443
