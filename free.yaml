@@ -32,7 +32,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: a303dc96-71cc-4f36-8d3b-0a9606833673
+    uuid: e362f91b-6031-4c4e-8534-31d036e70130
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: 0486b4dd-54d1-4447-82a0-a4b17020b7d8
+    uuid: 5fbf91f2-9d10-411c-8872-a87b84df0a6a
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -173,7 +173,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: fc44ed7b-fcf4-4075-9657-aae014efd6d1
+    uuid: 3b662213-41f7-4cbc-88d5-f64d38a8a666
     alterId: 0
     cipher: auto
     tls: false
