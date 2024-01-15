@@ -17,7 +17,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vless
-    uuid: 72d45f38-1ed7-4de0-b46d-ce09fbe8bc9d
+    uuid: b713eb71-7dd7-474d-8779-665ba1801df2
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -37,11 +37,27 @@ proxies:
     grpc-opts:
       grpc-service-name: buy-trojan-grpc-pm-telegram-at-synricha
     udp: true
-  - name: NL12
+  - name: US22
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 635dae80-b033-11ee-b635-205c6d5f5d78
+    uuid: 8a160c50-b3a8-11ee-b835-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: us-22.hihu.net
+    network: ws
+    ws-opts:
+      path: /prknd28o
+      headers:
+        Host: us-22.hihu.net
+    udp: true
+  - name: NL22
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: a4ff5d20-b3a8-11ee-b433-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -49,23 +65,31 @@ proxies:
     servername: eu-2.hihu.net
     network: ws
     ws-opts:
-      path: /o0duilfk
+      path: /iextq7al
       headers:
         Host: eu-2.hihu.net
     udp: true
-  - name: SG18 Howdy
+  - name: SG22 Howdy
     server: sg3.socifiles.com
     port: 443
     type: trojan
-    password: 465b4a10-b032-11ee-8b6f-1239d0255272
+    password: fbc45ed0-b3a7-11ee-a186-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: US18 Howdy
+  - name: HDY19 Weekly TJ
+    server: trojan1.udpgw.com
+    port: 443
+    type: trojan
+    password: aa871990-b3a7-11ee-8131-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: US22 Howdy
     server: us1.socifiles.com
     port: 443
     type: trojan
-    password: ab54bb20-b032-11ee-824d-1239d0255272
+    password: 22913030-b3a8-11ee-8f18-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
