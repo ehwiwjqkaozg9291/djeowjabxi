@@ -28,6 +28,22 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: Melbi HDY
+    server: sg-4.test3.net
+    port: 443
+    type: trojan
+    password: 9b4b28c0-b523-11ee-acb5-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: Melbi2 HDY
+    server: sg-4.test3.net
+    port: 443
+    type: trojan
+    password: 3618a0b0-b524-11ee-b053-1239d0255272
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
