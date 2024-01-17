@@ -69,7 +69,7 @@ proxies:
       headers:
         Host: eu-2.hihu.net
     udp: true
-  - name: SG22 Howdy
+  - name: SG24 Howdy
     server: sg3.socifiles.com
     port: 443
     type: trojan
