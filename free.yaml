@@ -12,19 +12,19 @@ proxies:
       headers:
         Host: 3.lowh.net
     udp: true
-  - name: USA18 TJ
+  - name: USA24 TJ
     server: america1.fufo.org
     port: 443
     type: trojan
-    password: e9ab8550-b3a8-11ee-b531-205c6d5f5d78
+    password: aa326c00-b522-11ee-b730-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: ASIA18 TJ
+  - name: ASIA24 TJ
     server: asia1.fufo.org
     port: 443
     type: trojan
-    password: 59e7ab20-b3a8-11ee-b435-205c6d5f5d78 
+    password: f6bbec00-b522-11ee-b433-205c6d5f5d78
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -92,7 +92,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: fc32e92c54eeb19a
+    password: 9593bc944b3add0d
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -105,7 +105,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 7b56f5b2-093a-42ef-8445-a299ba8e5718
+    uuid: 18fc0b3f-96d0-4aca-a330-9cc171cfe580
     alterId: 0
     cipher: auto
     tls: false
