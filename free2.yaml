@@ -14,6 +14,36 @@ proxies:
       headers:
         Host: ovh-sg.uchihaudin.biz.id
     udp: true
+  - name: ALI SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz5.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz5.mr-viper.biz.id
+    udp: true
+  - name: VULTR SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz6.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz6.mr-viper.biz.id
+    udp: true
   - name: Azure SG
     server: beacon.liveon.id
     port: 443
@@ -359,20 +389,50 @@ proxies:
       headers:
         Host: laivetrapturki.viperxgod.biz.id
     udp: true
-  - name: 162 ALI
+  - name: Tangram CA
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 3k.pureboy.eu.org
+    servername: ntz7.mr-viper.biz.id
     network: ws
     ws-opts:
-      path: /
+      path: /ViperIsGOD
       headers:
-        Host: 3k.pureboy.eu.org
+        Host: ntz7.mr-viper.biz.id
+    udp: true
+  - name: HZ NL
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz8.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz8.mr-viper.biz.id
+    udp: true
+  - name: Multacom US
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz9.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz9.mr-viper.biz.id
     udp: true
   - name: AWS FREE
     server: beacon.liveon.id
