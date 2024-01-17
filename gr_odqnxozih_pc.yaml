@@ -73,7 +73,7 @@ proxies:
     server: sg3.socifiles.com
     port: 443
     type: trojan
-    password: fbc45ed0-b3a7-11ee-a186-1239d0255272
+    password: 444d0460-b522-11ee-adc6-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -85,11 +85,11 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: US22 Howdy
+  - name: US24 Howdy
     server: us1.socifiles.com
     port: 443
     type: trojan
-    password: 22913030-b3a8-11ee-8f18-1239d0255272
+    password: 2467e310-b522-11ee-93c9-1239d0255272
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
