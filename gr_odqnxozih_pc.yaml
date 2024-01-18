@@ -77,6 +77,22 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: HDY19 Weekly VM
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 93b8f6b7-f159-4dc5-9360-a478798f4399
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray1.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray1.udpgw.com
+    udp: true
   - name: HDY19 Weekly TJ
     server: trojan1.udpgw.com
     port: 443
