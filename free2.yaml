@@ -1,5 +1,5 @@
 proxies:
-  - name: OVH ESGE
+  - name: OVH SG
     server: beacon.liveon.id
     port: 443
     type: vless
@@ -307,12 +307,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: olink-us.viperxgod.biz.id
+    servername: olink-uk.viperxgod.biz.id
     network: ws
     ws-opts:
       path: /ViperIsGOD
       headers:
-        Host: olink-us.viperxgod.biz.id
+        Host: olink-uk.viperxgod.biz.id
     udp: true
   - name: Azure NL
     server: beacon.liveon.id
