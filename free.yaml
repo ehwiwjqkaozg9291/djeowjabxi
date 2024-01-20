@@ -1,5 +1,5 @@
 proxies:
-  - name: USA TJ
+  - name: USA TJ1
     server: beacon.liveon.id
     port: 443
     type: trojan
@@ -92,7 +92,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 3df511c6-1d84-4c52-8865-fa7a35b445c9
+    uuid: 68f1225a-dc3b-49a3-b3b7-fba0404bf6b9
     alterId: 0
     cipher: auto
     tls: false
@@ -121,7 +121,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: b2fd17fa-e971-4740-8bb3-83b959196818
+    uuid: 30343b89-385b-44de-87dc-21d02e6a0f99
     alterId: 0
     cipher: auto
     tls: false
