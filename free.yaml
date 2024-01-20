@@ -1,5 +1,5 @@
 proxies:
-  - name: USA TJ1
+  - name: USA TJ
     server: beacon.liveon.id
     port: 443
     type: trojan
