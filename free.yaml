@@ -137,7 +137,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: 987c44be-37dc-4b27-ad79-8d656178a98c
+    uuid: 7be83a61-6ef1-4eeb-b559-a456a1951f7a
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -152,7 +152,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: d8064fbeda6a9290
+    password: 5666835bd99b6396
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
