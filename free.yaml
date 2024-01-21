@@ -1,5 +1,5 @@
 proxies:
-  - name: USA TJ
+  - name: USA TJ2
     server: beacon.liveon.id
     port: 443
     type: trojan
@@ -108,7 +108,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 701e3520ef07d9e2
+    password: 14c3c374724742a9
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
