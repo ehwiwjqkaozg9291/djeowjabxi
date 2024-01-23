@@ -1,5 +1,5 @@
 proxies:
-  - name: Biznet JTT
+  - name: SG4 JTT
     server: beacon.liveon.id
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: my4.vpnjantit.com
     udp: true
-  - name: ID JTT
+  - name: Biznet JTT
     server: beacon.liveon.id
     port: 443
     type: vmess
