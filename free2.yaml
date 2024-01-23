@@ -1,5 +1,5 @@
 proxies:
-  - name: OVH SG
+  - name: OVH SG IPv6
     server: beacon.liveon.id
     port: 443
     type: vless
@@ -523,6 +523,171 @@ proxies:
       path: /ViperIsGOD
       headers:
         Host: pro3.uchihaudin.biz.id
+    udp: true
+  - name: OVH1 SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz11.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz11.mr-viper.biz.id
+    udp: true
+  - name: OVH2 SG
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz12.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz12.mr-viper.biz.id
+    udp: true
+  - name: Melbi NL
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz14.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz14.mr-viper.biz.id
+    udp: true
+  - name: Melbi DE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz15.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz15.mr-viper.biz.id
+    udp: true
+  - name: Melbi IT
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz17.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz17.mr-viper.biz.id
+    udp: true
+  - name: Melbi US
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz19.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz19.mr-viper.biz.id
+    udp: true
+  - name: CTB DE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz20.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz20.mr-viper.biz.id
+    udp: true
+  - name: CTB UK
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz22.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz22.mr-viper.biz.id
+    udp: true
+  - name: Cogent Canada
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz23.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz23.mr-viper.biz.id
+    udp: true
+  - name: Cogent US
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz24.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz24.mr-viper.biz.id
+    udp: true
+  - name: Stark FR
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ntz25.mr-viper.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: ntz25.mr-viper.biz.id
     udp: true
   - name: CF Server
     server: beacon.liveon.id
