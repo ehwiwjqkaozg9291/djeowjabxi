@@ -10,7 +10,7 @@ proxies:
     servername: id1.sakhi.my.id
     network: ws
     ws-opts:
-      path: /JoinTelegram:@Viper_Network
+      path: /JoinTelegram@Viper_Network
       headers:
         Host: id1.sakhi.my.id
     udp: false
@@ -25,7 +25,7 @@ proxies:
     servername: sg1.sakhi.my.id
     network: ws
     ws-opts:
-      path: /JoinTelegram:@Viper_Network
+      path: /JoinTelegram@Viper_Network
       headers:
         Host: sg1.sakhi.my.id
     udp: false
