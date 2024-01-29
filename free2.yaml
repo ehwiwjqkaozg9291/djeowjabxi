@@ -29,3 +29,18 @@ proxies:
       headers:
         Host: sg1.sakhi.my.id
     udp: false
+  - name: CF Server
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sobat-memek.uchihaudin.biz.id
+    network: ws
+    ws-opts:
+      path: /ViperIsGOD
+      headers:
+        Host: sobat-memek.uchihaudin.biz.id
+    udp: true
