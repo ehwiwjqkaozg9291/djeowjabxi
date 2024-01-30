@@ -13,7 +13,7 @@ proxies:
       path: /JoinTelegram@Viper_Network
       headers:
         Host: id1.sakhi.my.id
-    udp: false
+    udp: true
   - name: SG
     server: beacon.liveon.id
     port: 80
@@ -28,7 +28,7 @@ proxies:
       path: /JoinTelegram@Viper_Network
       headers:
         Host: sg1.sakhi.my.id
-    udp: false
+    udp: true
   - name: CF Server
     server: beacon.liveon.id
     port: 80
