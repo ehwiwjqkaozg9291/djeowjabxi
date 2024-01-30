@@ -31,11 +31,11 @@ proxies:
     udp: false
   - name: CF Server
     server: beacon.liveon.id
-    port: 443
+    port: 80
     type: vless
     uuid: 811c6760-e002-4fa2-9b22-284b05a1da5d
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: sobat-memek.uchihaudin.biz.id
     network: ws
@@ -43,4 +43,4 @@ proxies:
       path: /ViperIsGOD
       headers:
         Host: sobat-memek.uchihaudin.biz.id
-    udp: true
+    udp: false
