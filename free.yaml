@@ -185,11 +185,40 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
+  - name: WHID GBL
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 39afcea0-0546-4ddc-b35c-096e35762572
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-wh-id01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-wh-id01.globalssh.xyz
+    udp: true
+  - name: IKD TJ
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 359d612c-de37-4bc0-ab1b-231698b7bd85
+    skip-cert-verify: true
+    sni: trojan-ikd-id01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: trojan-ikd-id01.globalssh.xyz
+    udp: true
   - name: CA GBL
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 3b662213-41f7-4cbc-88d5-f64d38a8a666
+    uuid: 1e5125ae-81a4-445e-bd67-1c7c60a265ef
     alterId: 0
     cipher: auto
     tls: false
@@ -205,7 +234,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 1d8d21b0-9b02-43f5-a6cc-f324db0a0f19
+    uuid: ae7f46ea-e48e-41de-9baf-c730f977b3d0
     alterId: 0
     cipher: auto
     tls: false
@@ -265,11 +294,27 @@ proxies:
       headers:
         Host: vmess-rs-us01.globalssh.xyz
     udp: true
+  - name: US2 GBL
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 3198ca91-9769-4969-bf26-2a068810bac8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-rs-us02.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-rs-us02.globalssh.xyz
+    udp: true
   - name: US3 GBL
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: aae327ea-eced-4006-a2c1-3e69791667c1
+    uuid: 236bafd7-4966-4141-ba36-1aa49f360776
     alterId: 0
     cipher: auto
     tls: false
