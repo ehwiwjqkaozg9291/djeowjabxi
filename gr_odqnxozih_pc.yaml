@@ -17,7 +17,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: vless
-    uuid: bfbce38a-8a4b-4b2a-9726-6d5501586690
+    uuid: c581e1c9-a591-49b2-8c52-d5f4fb9e3765
     cipher: auto
     tls: true
     skip-cert-verify: true
