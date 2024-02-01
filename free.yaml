@@ -189,7 +189,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 39afcea0-0546-4ddc-b35c-096e35762572
+    uuid: 8547c66a-d742-47b0-a42c-87080469387a
     alterId: 0
     cipher: auto
     tls: false
@@ -201,18 +201,21 @@ proxies:
       headers:
         Host: vmess-wh-id01.globalssh.xyz
     udp: true
-  - name: IKD TJ
+  - name: IKD GBL
     server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 359d612c-de37-4bc0-ab1b-231698b7bd85
+    port: 80
+    type: vmess
+    uuid: ca559b9e-3301-4c6c-b9dd-e8959b3faa2f
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: trojan-ikd-id01.globalssh.xyz
+    servername: vmess-ikd-id01.globalssh.xyz
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /vmess-ws
       headers:
-        Host: trojan-ikd-id01.globalssh.xyz
+        Host: vmess-ikd-id01.globalssh.xyz
     udp: true
   - name: CA GBL
     server: beacon.liveon.id
@@ -298,7 +301,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 3198ca91-9769-4969-bf26-2a068810bac8
+    uuid: b233fce8-0c29-46cb-bae3-1931f3943c50
     alterId: 0
     cipher: auto
     tls: false
