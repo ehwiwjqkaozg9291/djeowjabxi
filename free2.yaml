@@ -44,6 +44,21 @@ proxies:
       headers:
         Host: jp1.sakhi.my.id
     udp: true
+  - name: UK
+    server: beacon.liveon.id
+    port: 80
+    type: vless
+    uuid: fccdaaae-af39-41a7-9fde-fd32a48278cf
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uk1.sakhi.my.id
+    network: ws
+    ws-opts:
+      path: /JoinTelegram@Viper_Network
+      headers:
+        Host: uk1.sakhi.my.id
+    udp: true
   - name: CF Server
     server: beacon.liveon.id
     port: 80
