@@ -28,22 +28,6 @@ proxies:
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
-  - name: Melbi HDY
-    server: sg-4.test3.net
-    port: 443
-    type: trojan
-    password: 9b4b28c0-b523-11ee-acb5-1239d0255272
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: Melbi2 HDY
-    server: sg-4.test3.net
-    port: 443
-    type: trojan
-    password: 3618a0b0-b524-11ee-b053-1239d0255272
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
   - name: VM IPTNL
     server: beacon.liveon.id
     port: 80
@@ -92,7 +76,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 0832fb71-58f8-44a8-ad09-2f7662f9295d
+    uuid: 88c543ab-d1c6-4575-9499-27374bb3cc29
     alterId: 0
     cipher: auto
     tls: false
@@ -121,7 +105,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: e60f79c3-c7a7-4f40-b521-bbb295ffb539
+    uuid: 4782a185-3732-4897-81b8-ae13c30f4803
     alterId: 0
     cipher: auto
     tls: false
@@ -137,7 +121,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: 1fd6962c-aca1-4c00-9a2d-9a7ed2d4783d
+    uuid: 3bbc7698-f855-4ac7-8fda-87012e81975d
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -152,7 +136,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 8618f6d20494a5b9
+    password: 5adf0f45982b4317
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
