@@ -23,3 +23,99 @@ proxies:
     skip-cert-verify: true
     sni: android-context-data.googleapis.com
     udp: true
+  - name: OVH EAST29
+    server: us-22.hihu.net
+    port: 443
+    type: vmess
+    uuid: 1378d6e0-e7ce-11ee-b835-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /8tn4wqz3
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: USA Virginia29
+    server: us-23.hihu.net
+    port: 443
+    type: vmess
+    uuid: d81dc040-e7ce-11ee-b333-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /m9s6jvw0
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: USA Netflix29
+    server: us-netflix.hihu.net
+    port: 443
+    type: vmess
+    uuid: 02228110-e7cf-11ee-b835-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /zvb5lf8q
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: USA LA29
+    server: us-21.hihu.net
+    port: 443
+    type: vmess
+    uuid: 1b554c20-e7cf-11ee-b433-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /8wr5q73y
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: NL Fast29
+    server: eu-2.hihu.net
+    port: 443
+    type: vmess
+    uuid: 32046280-e7cf-11ee-b938-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /rjeakgi8
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: HE1 Limit29
+    server: sg-1.hihu.net
+    port: 443
+    type: vmess
+    uuid: 6a771a40-e7cf-11ee-b130-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /k0ejb41z
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
