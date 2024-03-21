@@ -28,7 +28,7 @@ proxies:
     skip-cert-verify: true
     sni: android-context-data.googleapis.com
     udp: true
-  - name: ID JALA 10GB
+  - name: ID JALA 10 GB
     server: jupiter.sing-box.id
     port: 443
     type: vmess
