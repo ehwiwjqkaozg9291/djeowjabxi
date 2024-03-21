@@ -1,4 +1,12 @@
 proxies:
+  - name: SG2 Howdy
+    server: sg2-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 9dff0fe0-e7cf-11ee-9d23-1239d0255272
+    skip-cert-verify: true
+    sni: android-context-data.googleapis.com
+    udp: true
   - name: SGT TJ1
     server: sgt-1.optnl.com
     port: 443
