@@ -1,315 +1,190 @@
 proxies:
-  - name: USA TJ2
-    server: beacon.liveon.id
+  - name: USA TJ
+    server: 3.lowh.net
     port: 443
     type: trojan
-    password: 962b5940-ab04-11ee-9bb1-1577c1651679
+    password: 3f578d00-e7cb-11ee-a76a-1577c1651679
     skip-cert-verify: true
-    sni: 3.lowh.net
+    sni: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: 3.lowh.net
+        Host: android-context-data.googleapis.com
     udp: true
-  - name: USA31 TJ
+  - name: USA29 TJ
     server: america1.fufo.org
     port: 443
     type: trojan
-    password: 45ff0b20-bab2-11ee-b736-205c6d5f5d78
+    password: b96696c0-e7cb-11ee-b130-205c6d5f5d78
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: android-context-data.googleapis.com
     udp: true
-  - name: ASIA31 TJ
+  - name: ASIA29 TJ
     server: asia1.fufo.org
     port: 443
     type: trojan
-    password: 1b3ee7e0-bab2-11ee-b439-205c6d5f5d78
+    password: 07647030-e7cc-11ee-b031-205c6d5f5d78
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: android-context-data.googleapis.com
     udp: true
-  - name: VM IPTNL
-    server: beacon.liveon.id
-    port: 80
+  - name: ID JALA 10GB
+    server: jupiter.sing-box.id
+    port: 443
     type: vmess
-    uuid: e362f91b-6031-4c4e-8534-31d036e70130
+    uuid: 66414281-2a23-4a64-9a73-b16f391b8334
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: cpanel.iptunnels.com
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: cpanel.iptunnels.com
-    udp: true
-  - name: VL IPTNL
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: 5fbf91f2-9d10-411c-8872-a87b84df0a6a
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cpanel.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-vless-ws-pm-telegram-at-synricha
-      headers:
-        Host: cpanel.iptunnels.com
-    udp: true
-  - name: TJ IPTNL
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 7536ce1bdbbd5c23
-    skip-cert-verify: true
-    sni: cpanel.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers:
-        Host: cpanel.iptunnels.com
-    udp: true
-  - name: VM2 IPTNL
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 88c543ab-d1c6-4575-9499-27374bb3cc29
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jala.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-vmess-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: TJ2 IPTNL
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: ef07eaf7bde2f6b3
-    skip-cert-verify: true
-    sni: jala.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: VM3 IPTNL
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 4782a185-3732-4897-81b8-ae13c30f4803
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jala.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-vmess-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: VL3 IPTNL
-    server: beacon.liveon.id
-    port: 80
-    type: vless
-    uuid: 3bbc7698-f855-4ac7-8fda-87012e81975d
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jala.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-vless-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: TJ3 IPTNL
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 5adf0f45982b4317
-    skip-cert-verify: true
-    sni: jala.iptunnels.com
-    network: ws
-    ws-opts:
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: US2 OPTNL
-    server: ust-2.optnl.com
-    port: 443
-    type: trojan
-    password: opentunnel.net-dghjnf8
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: NL OPTNL
-    server: nlt-1.optnl.com
-    port: 443
-    type: trojan
-    password: opentunnel.net-dwqdczxc
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: UK2 OPTNL
-    server: ukt-2.optnl.com
-    port: 443
-    type: trojan
-    password: opentunnel.net-reqdqwxc
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: WHID GBL
-    server: beacon.liveon.id
-    port: 80
-    type: vmess
-    uuid: 8547c66a-d742-47b0-a42c-87080469387a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-wh-id01.globalssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: vmess-wh-id01.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
   - name: IKD GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-ikd-id01.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: ca559b9e-3301-4c6c-b9dd-e8959b3faa2f
+    uuid: 38d807fe-6761-428c-95fa-f17d3c1a6fdb
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-ikd-id01.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-ikd-id01.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
-  - name: CA GBL
-    server: beacon.liveon.id
-    port: 80
+  - name: WHID GBL
+    server: vmess-wh-id01.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: 1e5125ae-81a4-445e-bd67-1c7c60a265ef
+    uuid: 3b66f411-b173-4075-b954-387407f3d8d5
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-ovh-ca01.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-ovh-ca01.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
   - name: SG GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-sg01.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: ae7f46ea-e48e-41de-9baf-c730f977b3d0
+    uuid: 8615127c-3cbf-4356-8cb2-c42ef5897ea7
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-sg01.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-sg01.globalssh.xyz
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: CA GBL
+    server: vmess-ovh-ca01.globalssh.xyz
+    port: 443
+    type: vmess
+    uuid: e1dabbeb-49f8-4124-a10e-443e1504d695
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: android-context-data.googleapis.com
     udp: true
   - name: DE GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-adv-de01.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: 4bc87db5-6f47-4563-9053-d37a24bbbf91
+    uuid: 983293b6-e02e-4cb7-9cac-b6a27507c019
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-adv-de01.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-adv-de01.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
   - name: NL GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-dis-nl01.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: 159f9e5e-20d9-4039-9086-738e27b6b530
+    uuid: 15377dca-8c19-45e2-b961-5f3a1f156d54
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-dis-nl01.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-dis-nl01.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
   - name: US1 GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-rs-us01.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: 578c17fe-6707-4960-b493-6d91d5b2c1bf
+    uuid: a9ea2805-3af9-4f84-804a-e2cd23f11461
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-rs-us01.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-rs-us01.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
   - name: US2 GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-rs-us02.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: b233fce8-0c29-46cb-bae3-1931f3943c50
+    uuid: 647a0898-173e-435b-8fa1-a8cd61f6c82d
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-rs-us02.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-rs-us02.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
   - name: US3 GBL
-    server: beacon.liveon.id
-    port: 80
+    server: vmess-rs-us03.globalssh.xyz
+    port: 443
     type: vmess
-    uuid: 236bafd7-4966-4141-ba36-1aa49f360776
+    uuid: 063c32ae-bef0-41ab-aee4-4168bb3096f8
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: vmess-rs-us03.globalssh.xyz
+    servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: vmess-rs-us03.globalssh.xyz
+        Host: android-context-data.googleapis.com
     udp: true
