@@ -1,49 +1,17 @@
 proxies:
-  - name: SG4 JTT
-    server: beacon.liveon.id
+  - name: SGT TJ1
+    server: sgt-1.optnl.com
     port: 443
-    type: vmess
-    uuid: a893c558-b988-11ee-9906-e3d5521f51a5
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: opentunnel.net-fweqfg
     skip-cert-verify: true
-    servername: premisg4.vpnjantit.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: premisg4.vpnjantit.com
+    sni: android-context-data.googleapis.com
     udp: true
-  - name: MY JTT
-    server: beacon.liveon.id
+  - name: SGT TJ2
+    server: sgt-1.optnl.com
     port: 443
-    type: vmess
-    uuid: 1950bb06-b98a-11ee-a2b7-00163e006a08
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: opentunnel.net-fweqfhgq
     skip-cert-verify: true
-    servername: my4.vpnjantit.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: my4.vpnjantit.com
-    udp: true
-  - name: Biznet JTT
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 28376206-b98e-11ee-a0eb-b727671acc3d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: indo7.vpnjantit.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: indo7.vpnjantit.com
+    sni: android-context-data.googleapis.com
     udp: true
