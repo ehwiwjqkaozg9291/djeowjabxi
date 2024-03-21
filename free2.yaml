@@ -1,1 +1,192 @@
 proxies:
+  - name: ServerSSH ID
+    server: idray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: d2a2c622-28c8-40f2-9056-57efc6ba39b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idrandroid-context-data.googleapis.com
+    udp: true
+  - name: Server SG1
+    server: sg1ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: a83d42ca-4a01-4bd9-a5fd-107507b36a61
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: Server SG2
+    server: sg2ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: d2453be4-f784-445c-9ba8-0a0ebcf8f7fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: Server SGM1
+    server: sgm1ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: d920b2e0-665a-4d2e-8f31-21bfbcf5b193
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: Server SGM2
+    server: sgm2ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: 8545742d-c5cf-435d-9ddf-6c4029e4a4a9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: ServerSSH UK
+    server: ukray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: 1556a667-03ca-4a1e-9a2b-c21c26ade304
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: Server DE
+    server: deray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: 4fd0fddf-686c-43c3-9d14-2577484ea25b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: VL UKX1
+    server: ukx-1.openv2ray.com
+    port: 80
+    type: vless
+    uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-heivrv
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: VM SGV1
+    server: sgv-1.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-gqrgqef
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: VM SGV2
+    server: sgv-2.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-jhgfdqw
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: VM SGV3
+    server: sgv-3.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-vihf8e
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: VM SGV4
+    server: sgv-4.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-fqwegzv
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
