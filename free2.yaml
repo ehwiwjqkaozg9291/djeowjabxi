@@ -138,7 +138,7 @@ proxies:
     servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
-      path: /u/opentunnel.net-gqrgqef
+      path: /u/opentunnel.net-bisvkw
       headers:
         Host: android-context-data.googleapis.com
     udp: true
@@ -154,7 +154,7 @@ proxies:
     servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
-      path: /u/opentunnel.net-jhgfdqw
+      path: /u/opentunnel.net-jxodh
       headers:
         Host: android-context-data.googleapis.com
     udp: true
@@ -170,7 +170,7 @@ proxies:
     servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
-      path: /u/opentunnel.net-vihf8e
+      path: /u/opentunnel.net-usishj
       headers:
         Host: android-context-data.googleapis.com
     udp: true
@@ -186,7 +186,7 @@ proxies:
     servername: android-context-data.googleapis.com
     network: ws
     ws-opts:
-      path: /u/opentunnel.net-fqwegzv
+      path: /u/opentunnel.net-isiveie
       headers:
         Host: android-context-data.googleapis.com
     udp: true
