@@ -12,19 +12,20 @@ proxies:
       headers:
         Host: android-context-data.googleapis.com
     udp: true
-  - name: USA29 TJ
+
+  - name: USA30 TJ
     server: america1.fufo.org
     port: 443
     type: trojan
-    password: b96696c0-e7cb-11ee-b130-205c6d5f5d78
+    password: 7083e8d0-e8e2-11ee-b933-205c6d5f5d78
     skip-cert-verify: true
     sni: android-context-data.googleapis.com
     udp: true
-  - name: ASIA29 TJ
+  - name: ASIA30 TJ
     server: asia1.fufo.org
     port: 443
     type: trojan
-    password: 07647030-e7cc-11ee-b031-205c6d5f5d78
+    password: 531d7920-e8e2-11ee-b530-205c6d5f5d78
     skip-cert-verify: true
     sni: android-context-data.googleapis.com
     udp: true
