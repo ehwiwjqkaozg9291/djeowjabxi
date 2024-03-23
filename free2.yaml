@@ -3,7 +3,7 @@ proxies:
     server: idray.serverip.my.id
     port: 443
     type: vmess
-    uuid: d2a2c622-28c8-40f2-9056-57efc6ba39b6
+    uuid: 4e5ad03b-3bc2-44af-b401-b8284c55e566
     alterId: 0
     cipher: auto
     tls: true
@@ -19,7 +19,7 @@ proxies:
     server: sg1ray.serverip.my.id
     port: 443
     type: vmess
-    uuid: a83d42ca-4a01-4bd9-a5fd-107507b36a61
+    uuid: 3f930889-55b9-4654-9408-3a09d24394a9
     alterId: 0
     cipher: auto
     tls: true
@@ -35,7 +35,7 @@ proxies:
     server: sg2ray.serverip.my.id
     port: 443
     type: vmess
-    uuid: d2453be4-f784-445c-9ba8-0a0ebcf8f7fd
+    uuid: 285c24d9-6db5-4b4a-abed-0ee926fa90e9
     alterId: 0
     cipher: auto
     tls: true
@@ -83,7 +83,7 @@ proxies:
     server: ukray.serverip.my.id
     port: 443
     type: vmess
-    uuid: 1556a667-03ca-4a1e-9a2b-c21c26ade304
+    uuid: d8b32b32-da2e-48af-83a8-72d9888a7a87
     alterId: 0
     cipher: auto
     tls: true
@@ -99,7 +99,7 @@ proxies:
     server: deray.serverip.my.id
     port: 443
     type: vmess
-    uuid: 4fd0fddf-686c-43c3-9d14-2577484ea25b
+    uuid: bf672613-f667-4c86-8d09-9fc0d866312b
     alterId: 0
     cipher: auto
     tls: true
