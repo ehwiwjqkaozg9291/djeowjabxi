@@ -190,3 +190,35 @@ proxies:
       headers:
         Host: android-context-data.googleapis.com
     udp: true
+  - name: dynamic-sg2b.obfs.xyz
+    server: dynamic-sg2b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 5ade43dc-9acb-47cc-ae5f-6752e72435f9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
+  - name: dynamic-us2b.obfs.xyz
+    server: dynamic-us2b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 64d927ac-8cd9-4fad-9798-fc2826ab8ddf
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: android-context-data.googleapis.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: android-context-data.googleapis.com
+    udp: true
